@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Playfair+Display&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.swal2-title {
+  font-family: "Jua", sans-serif !important;
+}
+
+body {
+  margin: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlaybox {
+  position: relative;
+  cursor: auto;
+  padding: 8px;
+  width: 400px;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.overlaybox .close-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  width: 1rem;
+  padding: 4px;
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.overlaybox table {
+  border-collapse: separate;
+  font-size: 0.8rem;
+  width: 100%;
+}
+.overlaybox th,
+td {
+  white-space: normal;
+}
+
+.overlaybox span {
+  display: inline-block;
+  background-color: white;
+  color: #333;
+  border-radius: 4px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.overlaybox tr > td {
+  color: white;
+  padding: 8px;
+}

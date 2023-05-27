@@ -1,0 +1,75 @@
+<div class="overlaybox" id="28919851-1a89-4a9a-8cff-cc7fb2c58bbd">
+  <div
+    class="close-icon"
+    data-area-id="28919851-1a89-4a9a-8cff-cc7fb2c58bbd"
+    onclick="removeModal(event)"
+  ><i
+      class="fa-solid fa-xmark"
+      data-area-id="28919851-1a89-4a9a-8cff-cc7fb2c58bbd"
+    ></i></div>
+  <div class="boxtitle">{{area.name}}</div>
+  <table>
+    <tr>
+      <th colspan="2">쓰레기 배출 요일</th>
+    </tr>
+    <tr>
+      <td>일</td>
+      <td>{{#each area.schedule.sun}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>월</td>
+      <td>{{#each area.schedule.mon}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>화</td>
+      <td>{{#each area.schedule.tue}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>수</td>
+      <td>{{#each area.schedule.wed}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>목</td>
+      <td>{{#each area.schedule.thu}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>금</td>
+      <td>{{#each area.schedule.fri}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+    <tr>
+      <td>토</td>
+      <td>{{#each area.schedule.sat}}
+          <span>{{this}}</span>
+        {{else}}
+          <span>없음</span>
+        {{/each}}</td>
+    </tr>
+  </table>
+  <div><p><i class="fa-solid fa-circle-info"></i> {{area.details}}</p>
+    <a href="{{area.link}}" target="_blank">상세보기</a>
+  </div>
+</div>
