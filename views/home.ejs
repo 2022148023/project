@@ -1,40 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>WasteWise</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="icon" href="/images/leaf.png" type="image/png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <title>쓰레기 공작소</title>
   </head>
   <body>
-    <div id="map"></div>
-    <script
-      type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=<%= KAKAO_MAP_JAVASCRIPT_KEY %>&libraries=services,clusterer,drawing"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/dfb093cc90.js"
-      crossorigin="anonymous"
-      type="text/javascript"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"
-      type="text/javascript"
-    ></script>
-    <script type="module" src="scripts/main.mjs"></script>
+    <div class="header">
+      <div class="logo">
+        <a href="/">
+          쓰레기 공작소
+          <img src="/images/leaf.png" alt="logo" />
+        </a>
+      </div>
+      <div class="navbar">
+        <a href="/login">로그인</a>
+        <a href="/login">로그인</a>
+      </div>
+    </div>
+    <div class="main">
+      <div
+        class="animate__animated animate__fadeInUp animate__slow main-content"
+      >
+        <h1>쓰레기 공작소 재활용!</h1>
+        <p>
+          국회는 국가의 예산안을 심의·확정한다. 예비비는 총액으로 국회의 의결을
+          얻어야 한다. 예비비의 지출은 차기국회의 승인을 얻어야 한다. 국군의
+          조직과 편성은 법률로 정한다.
+        </p>
+        <div class="buttons">
+          <a href="/map"><span>지도</span> <img src="/images/map.png" /> </a>
+          <a href="/scan"><span>스캔</span> <img src="/images/scan.png" /></a>
+          <a href="/test"
+            ><span>도감</span> <img src="/images/recycle.png"
+          /></a>
+        </div>
+      </div>
+      <img
+        class="animate__animated animate__slow animate__fadeIn"
+        src="/images/background.svg"
+        alt="SVG Image"
+      />
+    </div>
+    <!-- 
+
+        <a href="https://www.freepik.com/free-vector/flat-recycling-landing-page-template_5070957.htm#page=2&query=recycling%20landing%20page&position=6&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
+    -->
   </body>
 </html>

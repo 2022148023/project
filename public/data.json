@@ -38,62 +38,100 @@
         { "x": 126.95237386792348, "y": 37.602476031211225 },
         { "x": 126.95329584663565, "y": 37.5985841199697 }
       ],
-      "schedule": {
-        "sun": [
-          "충현동(舊:충정로)",
-          "북아현동",
-          "신촌동(舊:창천동)",
-          "연희동",
-          "홍은1동",
-          "북가좌2동"
-        ],
-        "mon": [
-          "충현동(舊:북아현3동)",
-          "천연동",
-          "신촌동(舊:대신동)",
-          "홍제1·2·3동",
-          "홍은2동",
-          "남가좌1·2동",
-          "북가좌1동"
-        ],
-        "tue": [
-          "충현동(舊:충정로)",
-          "북아현동",
-          "신촌동(舊:창천동)",
-          "연희동",
-          "홍은1동",
-          "북가좌2동"
-        ],
-        "wed": [
-          "충현동(舊:북아현3동)",
-          "천연동",
-          "신촌동(舊:대신동)",
-          "홍제1·2·3동",
-          "홍은2동",
-          "남가좌1·2동",
-          "북가좌1동"
-        ],
-        "thu": [
-          "충현동(舊:충정로)",
-          "북아현동",
-          "신촌동(舊:창천동)",
-          "연희동",
-          "홍은1동",
-          "북가좌2동"
-        ],
-        "fri": [
-          "충현동(舊:북아현3동)",
-          "천연동",
-          "신촌동(舊:대신동)",
-          "홍제1·2·3동",
-          "홍은2동",
-          "남가좌1·2동",
-          "북가좌1동"
-        ],
-        "sat": []
+      "동": {
+        "충현동": [1, 3, 5],
+        "천연동": [1, 3, 5],
+        "대신동": [1, 3, 5],
+        "홍제 1동": [1, 3, 5],
+        "홍제 2동": [1, 3, 5],
+        "홍제 3동": [1, 3, 5],
+        "홍은 2동": [1, 3, 5],
+        "남가좌 1동": [1, 3, 5],
+        "남가좌 2동": [1, 3, 5],
+        "북가좌1동": [1, 3, 5],
+        "충현동": [0, 2, 4],
+        "북아현동": [0, 2, 4],
+        "창천동": [0, 2, 4],
+        "연희동": [0, 2, 4],
+        "홍은1동": [0, 2, 4],
+        "북가좌2동": [0, 2, 4]
       },
-      "details": "오후 6시부터 밤 11시까지 집 앞에 쓰레기 배출 가능",
-      "link": "https://www.sdm.go.kr/dong/bah/useful/com/waste.do"
+      "trash_type": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        }
+      },
+      "details": "18:00~23:00 내집앞, 내점포",
+      "link": ""
     }
   ]
 }

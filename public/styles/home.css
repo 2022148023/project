@@ -1,0 +1,135 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+@font-face {
+  font-family: "omyu_pretty";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TmonMonsori";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "omyu_pretty";
+  box-sizing: border-box;
+}
+div.header {
+  background-color: #25a34b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1.5rem 8rem;
+}
+
+div.header .logo {
+  position: relative;
+}
+
+div.header .logo a {
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  padding: 5px;
+  font-family: "TmonMonsori";
+}
+
+div.header .logo img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 100%;
+}
+
+div.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+div.navbar a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 1rem;
+
+  padding: 8px 14px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #25a34b;
+  position: relative;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main-content {
+  z-index: 10;
+  color: white;
+  padding: 2rem;
+  position: absolute;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 68px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "SDSamliphopangche_Basic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main-content p {
+  font-family: "SDSamliphopangche_Basic";
+
+  font-size: 24px;
+  line-height: 3rem;
+  padding: 2rem;
+  margin: 0;
+}
+
+.main-content .buttons a {
+  color: #0f391cbd;
+  background-color: white;
+  border-radius: 50px;
+  width: 200px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.main-content .buttons a img {
+  width: 30px;
+}
