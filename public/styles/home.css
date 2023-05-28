@@ -1,9 +1,17 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
 
 @font-face {
-  font-family: "omyu_pretty";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
-    format("woff2");
+  font-family: "GyeonggiTitleM";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SDSamliphopangche_Basic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,19 +30,26 @@ body {
 }
 
 * {
-  font-family: "omyu_pretty";
+  font-family: "GyeonggiTitleM";
+  font-size: 20px;
   box-sizing: border-box;
 }
+
 div.header {
   background-color: #25a34b;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   color: white;
-  padding: 1.5rem 8rem;
+  position: relative;
 }
 
 div.header .logo {
+  padding: 1rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
   position: relative;
 }
 
@@ -42,18 +57,19 @@ div.header .logo a {
   font-style: italic;
   text-decoration: none;
   color: white;
-  font-size: 32px;
-  padding: 5px;
+  font-size: 24px;
   font-family: "TmonMonsori";
 }
 
+div.header #toggle {
+  cursor: pointer;
+  position: relative;
+  right: 30px;
+}
+
 div.header .logo img {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  right: 100%;
+  width: 30px;
+  height: 30px;
 }
 
 div.navbar {
@@ -66,26 +82,27 @@ div.navbar a {
   display: block;
   color: white;
   font-size: 1rem;
+  padding: 8px 1rem;
+}
 
-  padding: 8px 14px;
+div.navbar a:hover {
+  color: #eee;
 }
 
 .main {
+  min-height: 100vh;
   width: 100%;
-  height: 100%;
   background-color: #25a34b;
   position: relative;
-}
-
-.main img {
-  width: 100%;
+  background-image: url("/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-content {
-  z-index: 10;
   color: white;
   padding: 2rem;
-  position: absolute;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -100,17 +117,9 @@ div.navbar a {
   margin: 0;
 }
 
-@font-face {
-  font-family: "SDSamliphopangche_Basic";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .main-content p {
   font-family: "SDSamliphopangche_Basic";
-
+  word-break: keep-all;
   font-size: 24px;
   line-height: 3rem;
   padding: 2rem;
@@ -118,7 +127,7 @@ div.navbar a {
 }
 
 .main-content .buttons a {
-  color: #0f391cbd;
+  color: #3f7150;
   background-color: white;
   border-radius: 50px;
   width: 200px;
@@ -130,6 +139,57 @@ div.navbar a {
   margin: 0.5rem;
 }
 
+.main-content .buttons a:hover {
+  background-color: #eee;
+}
+
 .main-content .buttons a img {
   width: 30px;
+}
+
+.footer {
+  background-color: #0e7b2f;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+@media (min-width: 800px) {
+  div #toggle {
+    display: none;
+  }
+
+  div.navbar {
+    display: flex !important;
+    animation: none !important;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  div.navbar {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.navbar a {
+    background-color: #0e7b2f;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .main {
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: center bottom;
+  }
 }

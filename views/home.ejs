@@ -15,14 +15,15 @@
   <body>
     <div class="header">
       <div class="logo">
-        <a href="/">
-          쓰레기 공작소
-          <img src="/images/leaf.png" alt="logo" />
-        </a>
+        <img src="/images/leaf.png" alt="logo" />
+
+        <a href="/"> 쓰레기 공작소 </a>
       </div>
+      <span id="toggle"> <i class="fa-solid fa-bars"></i></span>
       <div class="navbar">
-        <a href="/login">로그인</a>
-        <a href="/login">로그인</a>
+        <a href="/"> 홈 </a>
+
+        <a href="/login"> 로그인 </a>
       </div>
     </div>
     <div class="main">
@@ -43,15 +44,36 @@
           /></a>
         </div>
       </div>
-      <img
-        class="animate__animated animate__slow animate__fadeIn"
-        src="/images/background.svg"
-        alt="SVG Image"
-      />
     </div>
+    <div class="footer">&copy; 쓰게기 공작소 2023</div>
     <!-- 
-
+        background image sourced from
         <a href="https://www.freepik.com/free-vector/flat-recycling-landing-page-template_5070957.htm#page=2&query=recycling%20landing%20page&position=6&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
-    -->
+        icons sourced from
+        flaticon.io
+      -->
+    <script
+      src="https://kit.fontawesome.com/dfb093cc90.js"
+      crossorigin="anonymous"
+      type="text/javascript"
+    ></script>
+    <script>
+      let isOpened = false;
+      const navbar = document.querySelector("div.navbar");
+      document
+        .getElementById("toggle")
+        .addEventListener("click", function (event) {
+          if (isOpened) {
+            navbar.className = "navbar animate__animated animate__fadeOutUp";
+            setTimeout(() => {
+              navbar.style.display = "none";
+            }, 500);
+          } else {
+            navbar.style.display = "flex";
+            navbar.className = "navbar animate__animated animate__fadeInDown";
+          }
+          isOpened = !isOpened;
+        });
+    </script>
   </body>
 </html>
