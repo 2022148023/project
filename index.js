@@ -28,8 +28,8 @@ app.get("/", function (req, res) {
   res.render("home");
 });
 
-app.get("/camera", (req, res) => {
-  res.render("camera");
+app.get("/scan", (req, res) => {
+  res.render("scan");
 });
 
 const port = process.env.PORT || 3000;

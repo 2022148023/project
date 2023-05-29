@@ -1,27 +1,28 @@
-feather.replace();
-
-const controls = document.querySelector(".controls");
-const cameraOptions = document.querySelector(".video-options>select");
 const video = document.querySelector("video");
 const canvas = document.querySelector("canvas");
-const screenshotImage = document.querySelector("img");
-const buttons = [...controls.querySelectorAll("button")];
+const screenshotContainer = document.querySelector(".screenshot-container");
+const screenshotImage = document.querySelector("img.screenshot-image");
+const screenshot = document.querySelector("button.screenshot");
 
 let streamStarted = false;
 
-const [play, pause, screenshot] = buttons;
+const broswerWidth = window.innerWidth;
+const browserHeight = window.innerHeight;
+
+console.log(broswerWidth);
+console.log(browserHeight);
 
 const constraints = {
   video: {
     width: {
-      min: 1280,
-      ideal: 1920,
-      max: 2560,
+      min: 0,
+      ideal: broswerWidth,
+      max: broswerWidth,
     },
     height: {
-      min: 720,
-      ideal: 1080,
-      max: 1440,
+      min: 0,
+      ideal: browserHeight,
+      max: browserHeight,
     },
     facingMode: "environment",
   },
@@ -40,24 +41,6 @@ const getCameraSelection = async () => {
   startStream(updatedConstraints);
 };
 
-play.onclick = () => {
-  if (streamStarted) {
-    video.play();
-    play.classList.add("d-none");
-    pause.classList.remove("d-none");
-    return;
-  }
-  if ("mediaDevices" in navigator && navigator.mediaDevices.getUserMedia) {
-    const updatedConstraints = {
-      ...constraints,
-      deviceId: {
-        exact: cameraOptions.value,
-      },
-    };
-    startStream(updatedConstraints);
-  }
-};
-
 const startStream = async (constraints) => {
   const stream = await navigator.mediaDevices.getUserMedia(constraints);
   handleStream(stream);
@@ -65,16 +48,8 @@ const startStream = async (constraints) => {
 
 const handleStream = (stream) => {
   video.srcObject = stream;
-  play.classList.add("d-none");
-  pause.classList.remove("d-none");
-  screenshot.classList.remove("d-none");
-  streamStarted = true;
-};
 
-const pauseStream = () => {
-  video.pause();
-  play.classList.remove("d-none");
-  pause.classList.add("d-none");
+  streamStarted = true;
 };
 
 const doScreenshot = () => {
@@ -82,10 +57,10 @@ const doScreenshot = () => {
   canvas.height = video.videoHeight;
   canvas.getContext("2d").drawImage(video, 0, 0);
   screenshotImage.src = canvas.toDataURL("image/webp");
+  screenshotContainer.style.display = "block";
   screenshotImage.classList.remove("d-none");
 };
 
-pause.onclick = pauseStream;
 screenshot.onclick = doScreenshot;
 
 document.addEventListener("DOMContentLoaded", async () => {

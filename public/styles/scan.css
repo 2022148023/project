@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: none;
+  background-color: white;
+}
+
+.screenshot-image {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  left: 50%;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  background: white;
+}
+
+.screenshot-container {
+  display: none;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.display-cover video {
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.controls > button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.256);
+}
+
+.controls > button:hover svg {
+  color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls button {
+    margin: 5px 0 !important;
+  }
+}
