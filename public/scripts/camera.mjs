@@ -9,21 +9,8 @@ let streamStarted = false;
 const broswerWidth = window.innerWidth;
 const browserHeight = window.innerHeight;
 
-console.log(broswerWidth);
-console.log(browserHeight);
-
 const constraints = {
   video: {
-    width: {
-      min: 0,
-      ideal: broswerWidth,
-      max: broswerWidth,
-    },
-    height: {
-      min: 0,
-      ideal: browserHeight,
-      max: browserHeight,
-    },
     facingMode: "environment",
   },
 };
