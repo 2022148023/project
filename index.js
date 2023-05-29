@@ -15,6 +15,11 @@ app.engine("html", require("ejs").renderFile);
 
 app.set("views", path.join(__dirname, "views"));
 
+app.use((req, res, next) => {
+  res.set("Cache-Control", "no-store");
+  next();
+});
+
 // main page
 app.get("/map", function (req, res) {
   res.render("map", {
