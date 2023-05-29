@@ -25,35 +25,28 @@
       </div>
       <span id="toggle"> <i class="fa-solid fa-bars"></i></span>
       <div class="navbar">
-        <a href="/"> 홈 </a>
-        <a href="/login"> 로그인 </a>
+        <a href="/">홈</a>
+        <a href="/login">로그인</a>
       </div>
     </div>
     <div class="main">
-      <div class="display-cover">
-        <video autoplay></video>
-        <canvas class="d-none"></canvas>
-        <div class="screenshot-container">
-          <img class="screenshot-image d-none" alt="" />
-        </div>
-        <div class="controls">
-          <button
-            class="btn btn-outline-success screenshot"
-            title="ScreenShot"
-          ></button>
-        </div>
+      <video autoplay></video>
+      <canvas class="d-none"></canvas>
+      <div class="screenshot-container">
+        <img class="screenshot-image d-none" alt="" />
+      </div>
+      <div class="controls">
+        <button class="screenshot-button" title="ScreenShot"></button>
       </div>
     </div>
     <div class="footer">&copy; 쓰레기 공작소 2023</div>
-    <!-- 
-        background image sourced from
-        <a href="https://www.freepik.com/free-vector/flat-recycling-landing-page-template_5070957.htm#page=2&query=recycling%20landing%20page&position=6&from_view=search&track=ais">Image by pikisuperstar</a> on Freepik
-        icons sourced from
-        flaticon.io
-      -->
     <script
       src="https://kit.fontawesome.com/dfb093cc90.js"
       crossorigin="anonymous"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"
       type="text/javascript"
     ></script>
     <script>
@@ -74,6 +67,6 @@
           isOpened = !isOpened;
         });
     </script>
-    <script type="module" src="scripts/camera.mjs"></script>
+    <script type="text/javascript" src="scripts/scan.js"></script>
   </body>
 </html>
