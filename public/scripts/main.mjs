@@ -52,16 +52,18 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       fetch("/data/seoul_map.geojson")
         .then((response) => response.json())
-        .then((data) => (neighborhoodsData = data.features))
+        .then((data) => {
+          neighborhoodsData = data.features;
+          data.features.map((area) =>
+            renderArea({
+              coordinates: area.geometry.coordinates[0],
+              ...area.properties,
+            })
+          );
+        })
         .catch((e) => {
           console.log(e);
         });
-      data.features.map((area) =>
-        renderArea({
-          coordinates: area.geometry.coordinates[0],
-          ...area.properties,
-        })
-      );
     })
     .catch((error) => {
       Toast.fire({
