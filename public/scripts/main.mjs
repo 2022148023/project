@@ -45,10 +45,15 @@ var clickHandler = function (event) {
 kakao.maps.event.addListener(map, "click", clickHandler);
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("data.json")
+  fetch("/data/seoul_sig.geojson")
     .then((response) => response.json())
     .then((data) => {
-      data.areas.map((area) => renderArea(area));
+      data.features.map((area) =>
+        renderArea({
+          coordinates: area.geometry.coordinates[0],
+          ...area.properties,
+        })
+      );
     })
     .catch((error) => {
       Toast.fire({
@@ -64,8 +69,8 @@ var polygons = {};
 function renderArea(area) {
   var polygonPath = [];
 
-  for (var coords of area.path) {
-    polygonPath.push(new kakao.maps.LatLng(coords.y, coords.x));
+  for (var coords of area.coordinates) {
+    polygonPath.push(new kakao.maps.LatLng(coords[1], coords[0]));
   }
 
   // 지도에 표시할 다각형을 생성합니다

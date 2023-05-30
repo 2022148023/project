@@ -1,0 +1,3710 @@
+{
+  "areas": [
+    {
+      "SIG_CD": "11110",
+      "SIG_NM": "종로구",
+      "EMDs": [
+        {
+          "EMD_CD": "11110154",
+          "EMD_NM": "장사동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110153",
+          "EMD_NM": "돈의동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110152",
+          "EMD_NM": "봉익동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110151",
+          "EMD_NM": "묘동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110150",
+          "EMD_NM": "훈정동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110149", "EMD_NM": "원서동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110148", "EMD_NM": "계동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110147", "EMD_NM": "재동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110146", "EMD_NM": "가회동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110145", "EMD_NM": "송현동", "schedule": [] },
+        { "EMD_CD": "11110144", "EMD_NM": "사간동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110143", "EMD_NM": "화동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110142", "EMD_NM": "소격동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110141", "EMD_NM": "안국동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110140", "EMD_NM": "삼청동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110139", "EMD_NM": "팔판동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110138",
+          "EMD_NM": "종로2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110137",
+          "EMD_NM": "낙원동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110136",
+          "EMD_NM": "인사동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110135",
+          "EMD_NM": "관철동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110134",
+          "EMD_NM": "경운동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110133",
+          "EMD_NM": "익선동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110132",
+          "EMD_NM": "운니동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110131",
+          "EMD_NM": "권농동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110130",
+          "EMD_NM": "와룡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110129",
+          "EMD_NM": "견지동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110128",
+          "EMD_NM": "관훈동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110127",
+          "EMD_NM": "공평동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110126",
+          "EMD_NM": "종로1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110125",
+          "EMD_NM": "중학동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110124",
+          "EMD_NM": "수송동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110123",
+          "EMD_NM": "서린동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110122",
+          "EMD_NM": "청진동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110121", "EMD_NM": "신문로2가", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110120",
+          "EMD_NM": "신문로1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110119",
+          "EMD_NM": "세종로",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110118",
+          "EMD_NM": "내수동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110117",
+          "EMD_NM": "당주동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110116",
+          "EMD_NM": "도렴동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110115", "EMD_NM": "사직동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11110114",
+          "EMD_NM": "내자동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110113", "EMD_NM": "필운동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110112", "EMD_NM": "체부동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110111", "EMD_NM": "옥인동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110110", "EMD_NM": "누하동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110109", "EMD_NM": "누상동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110108", "EMD_NM": "통인동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110107",
+          "EMD_NM": "적선동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110187", "EMD_NM": "무악동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110186", "EMD_NM": "신영동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110185", "EMD_NM": "홍지동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110184", "EMD_NM": "부암동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110183", "EMD_NM": "평창동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110182", "EMD_NM": "구기동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110181", "EMD_NM": "행촌동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110180", "EMD_NM": "교북동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110179", "EMD_NM": "홍파동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110178", "EMD_NM": "송월동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110177", "EMD_NM": "평동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110106", "EMD_NM": "통의동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110105", "EMD_NM": "창성동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110176", "EMD_NM": "교남동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110175", "EMD_NM": "숭인동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11110174",
+          "EMD_NM": "창신동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110173", "EMD_NM": "명륜3가", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110172",
+          "EMD_NM": "명륜4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110104", "EMD_NM": "효자동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110103", "EMD_NM": "궁정동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110102", "EMD_NM": "신교동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110101", "EMD_NM": "청운동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110171",
+          "EMD_NM": "명륜2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110170", "EMD_NM": "명륜1가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110169", "EMD_NM": "혜화동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110168", "EMD_NM": "동숭동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11110167", "EMD_NM": "충신동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110166",
+          "EMD_NM": "연건동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11110165", "EMD_NM": "이화동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11110164", "EMD_NM": "종로6가", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11110163",
+          "EMD_NM": "종로5가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110162",
+          "EMD_NM": "효제동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110161",
+          "EMD_NM": "종로4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110160",
+          "EMD_NM": "연지동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110159",
+          "EMD_NM": "원남동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110158",
+          "EMD_NM": "예지동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110157",
+          "EMD_NM": "인의동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110156",
+          "EMD_NM": "종로3가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11110155",
+          "EMD_NM": "관수동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "골목길 19:00~21:00, 간선 및 대로변 22:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "동주민센터 접수한 날짜"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "동주민센터 접수한 날짜"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "동주민센터 접수한 날짜"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "동주민센터 접수한 날짜"
+          }
+        }
+      },
+      "details": "불연성 쓰레기는 특수규격 봉투에 담아서 꽉 묶은 후\n거주지/영업장 생활쓰레기 배출요일에\n배출시간은 저녁 7시부터 9시까지이며,\n장소는 내집․내점포앞에 올바로 세워서 배출(배출장소 청결유지)",
+      "link": "https://www.jongno.go.kr/Main.do?menuId=1358&menuNo=1358"
+    },
+    {
+      "SIG_CD": "11140",
+      "SIG_NM": "중구",
+      "EMDs": [
+        {
+          "EMD_CD": "11140158",
+          "EMD_NM": "충무로3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140157",
+          "EMD_NM": "산림동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140156",
+          "EMD_NM": "입정동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140155",
+          "EMD_NM": "을지로3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140154",
+          "EMD_NM": "오장동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140153",
+          "EMD_NM": "방산동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140152",
+          "EMD_NM": "주교동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140151",
+          "EMD_NM": "을지로5가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140150",
+          "EMD_NM": "을지로4가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140149",
+          "EMD_NM": "을지로7가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140148",
+          "EMD_NM": "을지로6가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140147",
+          "EMD_NM": "쌍림동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140146",
+          "EMD_NM": "광희동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140145",
+          "EMD_NM": "광희동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140144",
+          "EMD_NM": "장충동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140143",
+          "EMD_NM": "장충동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140142",
+          "EMD_NM": "예장동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140141",
+          "EMD_NM": "주자동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140140",
+          "EMD_NM": "남학동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140139",
+          "EMD_NM": "필동3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140138",
+          "EMD_NM": "필동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140137",
+          "EMD_NM": "필동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140136",
+          "EMD_NM": "묵정동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140135",
+          "EMD_NM": "예관동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140134",
+          "EMD_NM": "인현동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140133",
+          "EMD_NM": "충무로5가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140132",
+          "EMD_NM": "충무로4가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140131",
+          "EMD_NM": "저동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140130",
+          "EMD_NM": "남산동3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140129",
+          "EMD_NM": "남산동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140128",
+          "EMD_NM": "남산동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140127",
+          "EMD_NM": "명동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140126",
+          "EMD_NM": "명동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140125",
+          "EMD_NM": "충무로2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140124",
+          "EMD_NM": "충무로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140123",
+          "EMD_NM": "회현동3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140122",
+          "EMD_NM": "회현동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140121",
+          "EMD_NM": "회현동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140120",
+          "EMD_NM": "봉래동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140119",
+          "EMD_NM": "봉래동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140118",
+          "EMD_NM": "남대문로5가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140117",
+          "EMD_NM": "남대문로4가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140116",
+          "EMD_NM": "남대문로3가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140115",
+          "EMD_NM": "남대문로2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140114",
+          "EMD_NM": "태평로2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140113",
+          "EMD_NM": "북창동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140112",
+          "EMD_NM": "남창동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140111",
+          "EMD_NM": "소공동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140110",
+          "EMD_NM": "수표동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140109",
+          "EMD_NM": "장교동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140108",
+          "EMD_NM": "수하동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140107",
+          "EMD_NM": "삼각동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140106",
+          "EMD_NM": "남대문로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140105",
+          "EMD_NM": "을지로2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140104",
+          "EMD_NM": "을지로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140103",
+          "EMD_NM": "태평로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140102",
+          "EMD_NM": "다동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140101",
+          "EMD_NM": "무교동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140174",
+          "EMD_NM": "만리동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140173",
+          "EMD_NM": "만리동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140172",
+          "EMD_NM": "의주로2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140171",
+          "EMD_NM": "중림동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140170",
+          "EMD_NM": "충정로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140169",
+          "EMD_NM": "의주로1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140168",
+          "EMD_NM": "순화동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140167",
+          "EMD_NM": "정동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140166",
+          "EMD_NM": "서소문동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140165",
+          "EMD_NM": "황학동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140164",
+          "EMD_NM": "무학동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140163",
+          "EMD_NM": "흥인동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140162",
+          "EMD_NM": "신당동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140161",
+          "EMD_NM": "저동2가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140160",
+          "EMD_NM": "인현동1가",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11140159",
+          "EMD_NM": "초동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22:00~01:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.junggu.seoul.kr/content.do?cmsid=14187"
+    },
+    {
+      "SIG_CD": "11170",
+      "SIG_NM": "용산구",
+      "EMDs": [
+        {
+          "EMD_CD": "11170136",
+          "EMD_NM": "보광동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170135",
+          "EMD_NM": "용산동6가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170134",
+          "EMD_NM": "주성동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170133",
+          "EMD_NM": "서빙고동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170132",
+          "EMD_NM": "동빙고동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170131",
+          "EMD_NM": "한남동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170130",
+          "EMD_NM": "이태원동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170129",
+          "EMD_NM": "이촌동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170128",
+          "EMD_NM": "한강로3가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170127",
+          "EMD_NM": "용산동5가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170126",
+          "EMD_NM": "용산동3가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170125",
+          "EMD_NM": "한강로2가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170124",
+          "EMD_NM": "한강로1가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170123",
+          "EMD_NM": "신계동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170122",
+          "EMD_NM": "문배동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170121",
+          "EMD_NM": "용문동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170120",
+          "EMD_NM": "도원동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170119",
+          "EMD_NM": "효창동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170118",
+          "EMD_NM": "원효로4가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170117",
+          "EMD_NM": "원효로3가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170116",
+          "EMD_NM": "청암동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170115",
+          "EMD_NM": "산천동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170114",
+          "EMD_NM": "신창동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170113",
+          "EMD_NM": "원효로2가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170112",
+          "EMD_NM": "원효로1가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170111",
+          "EMD_NM": "청파동3가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170110",
+          "EMD_NM": "청파동2가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170109",
+          "EMD_NM": "청파동1가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170108",
+          "EMD_NM": "서계동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170107",
+          "EMD_NM": "동자동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170106",
+          "EMD_NM": "용산동1가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170105",
+          "EMD_NM": "남영동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170104",
+          "EMD_NM": "갈월동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170103",
+          "EMD_NM": "용산동4가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170102",
+          "EMD_NM": "용산동2가",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11170101",
+          "EMD_NM": "후암동",
+          "schedule": [0, 1, 2, 3, 4]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "동장이 지정한 일시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "동장이 지정한 일시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "동장이 지정한 일시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, false, false],
+            "time": "동장이 지정한 일시"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.yongsan.go.kr/portal/main/contents.do?menuNo=200680"
+    },
+    {
+      "SIG_CD": "11200",
+      "SIG_NM": "성동구",
+      "EMDs": [
+        { "EMD_CD": "11200122", "EMD_NM": "용답동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200118", "EMD_NM": "송정동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200115", "EMD_NM": "성수동2가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200114", "EMD_NM": "성수동1가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200113", "EMD_NM": "옥수동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200112", "EMD_NM": "금호동4가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200111", "EMD_NM": "금호동3가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200110", "EMD_NM": "금호동2가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200109", "EMD_NM": "금호동1가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200108", "EMD_NM": "응봉동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200107", "EMD_NM": "행당동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200106", "EMD_NM": "사근동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11200105", "EMD_NM": "마장동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200104", "EMD_NM": "도선동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200103", "EMD_NM": "홍익동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200102", "EMD_NM": "하왕십리동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11200101", "EMD_NM": "상왕십리동", "schedule": [0, 2, 4] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.sd.go.kr/main/contents.do?key=1674&"
+    },
+    {
+      "SIG_CD": "11215",
+      "SIG_NM": "광진구",
+      "EMDs": [
+        { "EMD_CD": "11215109", "EMD_NM": "군자동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11215107", "EMD_NM": "화양동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11215105",
+          "EMD_NM": "자양동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11215104", "EMD_NM": "광장동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11215103",
+          "EMD_NM": "구의동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11215102", "EMD_NM": "능동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11215101",
+          "EMD_NM": "중곡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "19:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200838"
+    },
+    {
+      "SIG_CD": "11230",
+      "SIG_NM": "동대문구",
+      "EMDs": [
+        { "EMD_CD": "11230110", "EMD_NM": "이문동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11230109", "EMD_NM": "휘경동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11230108", "EMD_NM": "회기동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11230107", "EMD_NM": "청량리동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11230106",
+          "EMD_NM": "장안동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11230105",
+          "EMD_NM": "답십리동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11230104", "EMD_NM": "전농동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11230103", "EMD_NM": "제기동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11230102", "EMD_NM": "용두동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11230101", "EMD_NM": "신설동", "schedule": [1, 3, 5] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~21:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.ddm.go.kr/www/contents.do?key=858"
+    },
+    {
+      "SIG_CD": "11260",
+      "SIG_NM": "중랑구",
+      "EMDs": [
+        { "EMD_CD": "11260106", "EMD_NM": "신내동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11260105",
+          "EMD_NM": "망우동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11260104", "EMD_NM": "묵동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11260103", "EMD_NM": "중화동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11260102",
+          "EMD_NM": "상봉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11260101",
+          "EMD_NM": "면목동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~20:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.jungnang.go.kr/portal/main/contents.do?menuNo=200050"
+    },
+    {
+      "SIG_CD": "11290",
+      "SIG_NM": "성북구",
+      "EMDs": [
+        { "EMD_CD": "11290134", "EMD_NM": "길음동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11290133",
+          "EMD_NM": "정릉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11290132", "EMD_NM": "보문동3가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290131", "EMD_NM": "보문동2가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290130", "EMD_NM": "보문동1가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290129", "EMD_NM": "보문동7가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290128", "EMD_NM": "보문동6가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290127", "EMD_NM": "보문동5가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290126", "EMD_NM": "보문동4가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290125", "EMD_NM": "안암동5가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290124", "EMD_NM": "안암동4가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290123", "EMD_NM": "안암동3가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290122", "EMD_NM": "안암동2가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290121", "EMD_NM": "안암동1가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290120", "EMD_NM": "동선동5가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290119", "EMD_NM": "동선동4가", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290118", "EMD_NM": "동선동3가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290117", "EMD_NM": "동선동2가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290116", "EMD_NM": "동선동1가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290115", "EMD_NM": "삼선동5가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290114", "EMD_NM": "삼선동4가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290113", "EMD_NM": "삼선동3가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290112", "EMD_NM": "삼선동2가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290111", "EMD_NM": "삼선동1가", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11290110",
+          "EMD_NM": "동소문동7가",
+          "schedule": [1, 3, 5]
+        },
+        {
+          "EMD_CD": "11290109",
+          "EMD_NM": "동소문동6가",
+          "schedule": [1, 3, 5]
+        },
+        {
+          "EMD_CD": "11290108",
+          "EMD_NM": "동소문동5가",
+          "schedule": [0, 2, 4]
+        },
+        {
+          "EMD_CD": "11290107",
+          "EMD_NM": "동소문동4가",
+          "schedule": [0, 2, 4]
+        },
+        {
+          "EMD_CD": "11290106",
+          "EMD_NM": "동소문동3가",
+          "schedule": [0, 2, 4]
+        },
+        {
+          "EMD_CD": "11290105",
+          "EMD_NM": "동소문동2가",
+          "schedule": [0, 2, 4]
+        },
+        {
+          "EMD_CD": "11290104",
+          "EMD_NM": "동소문동1가",
+          "schedule": [0, 2, 4]
+        },
+        { "EMD_CD": "11290103", "EMD_NM": "돈암동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290102", "EMD_NM": "성북동1가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11290101", "EMD_NM": "성북동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290139", "EMD_NM": "석관동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11290138",
+          "EMD_NM": "장위동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11290137", "EMD_NM": "상월곡동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290136", "EMD_NM": "하월곡동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11290135", "EMD_NM": "종암동", "schedule": [1, 3, 5] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, false, true, false, true, false],
+            "time": "18:00~24:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "18:00~24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.sb.go.kr/main/PageLink.do?link=forward:use/PageContent.do&menuNo=94000000&subMenuNo=94040000&thirdMenuNo=94040100&fourthMenuNo="
+    },
+    {
+      "SIG_CD": "11305",
+      "SIG_NM": "강북구",
+      "EMDs": [
+        {
+          "EMD_CD": "11305104",
+          "EMD_NM": "우이동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11305103",
+          "EMD_NM": "수유동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11305102",
+          "EMD_NM": "번동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11305101",
+          "EMD_NM": "미아동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "자체처리"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~12:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~15:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~15:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~15:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "09:00~15:00"
+          }
+        }
+      },
+      "details": "일반쓰레기 & 음식폐기물: 격일, 재활용품: 주1~2회",
+      "link": "https://www.gangbuk.go.kr/www/contents.do?key=731"
+    },
+    {
+      "SIG_CD": "11320",
+      "SIG_NM": "도봉구",
+      "EMDs": [
+        {
+          "EMD_CD": "11320108",
+          "EMD_NM": "도봉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11320107",
+          "EMD_NM": "창동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11320106",
+          "EMD_NM": "방학동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11320105",
+          "EMD_NM": "쌍문동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, false, true, false, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, false, true, false, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, false, true, false, true, true, true],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, false, true, false, true, true, true],
+            "time": "22:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "06:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "06:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "06:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "06:00~24:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.dobong.go.kr/subsite/waste/Contents.asp?code=10007358"
+    },
+    {
+      "SIG_CD": "11350",
+      "SIG_NM": "노원구",
+      "EMDs": [
+        {
+          "EMD_CD": "11350106",
+          "EMD_NM": "중계동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11350105",
+          "EMD_NM": "상계동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11350104",
+          "EMD_NM": "하계동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11350103",
+          "EMD_NM": "공릉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11350102", "EMD_NM": "월계동", "schedule": [1, 3, 5] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00-24:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.nowon.kr/www/minwon/minwon4/minwon4_03/minwon4_03_02.jsp"
+    },
+    {
+      "SIG_CD": "11380",
+      "SIG_NM": "은평구",
+      "EMDs": [
+        { "EMD_CD": "11380114", "EMD_NM": "진관동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11380110", "EMD_NM": "증산동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11380109",
+          "EMD_NM": "신사동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11380108", "EMD_NM": "역촌동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11380107", "EMD_NM": "응암동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11380106", "EMD_NM": "대조동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11380105", "EMD_NM": "구산동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11380104", "EMD_NM": "갈현동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11380103",
+          "EMD_NM": "불광동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11380102", "EMD_NM": "녹번동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11380101", "EMD_NM": "수색동", "schedule": [0, 2, 4] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18시 ~ 24시, 19시 ~ 24시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18시 ~ 24시, 19시 ~ 24시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "18시 ~ 24시, 19시 ~ 24시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22시 ~ 01시"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18시 ~ 24시, 19시 ~ 24시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18시 ~ 24시, 19시 ~ 24시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "계약에 따라 다름"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22시 ~ 01시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "18시 ~ 22시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "18시 ~ 22시"
+          },
+          "사업장생활": {
+            "schedule": [false, false, false, false, false, false, false],
+            "time": "-"
+          },
+          "가로변상가": {
+            "schedule": [false, false, false, false, false, false, false],
+            "time": "-"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "18시 ~ 22시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "18시 ~ 22시"
+          },
+          "사업장생활": {
+            "schedule": [false, false, false, false, false, false, false],
+            "time": "-"
+          },
+          "가로변상가": {
+            "schedule": [false, false, false, false, false, false, false],
+            "time": "-"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.ep.go.kr/www/contents.do?key=1239"
+    },
+    {
+      "SIG_CD": "11410",
+      "SIG_NM": "서대문구",
+      "EMDs": [
+        { "EMD_CD": "11410120", "EMD_NM": "남가좌동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410119", "EMD_NM": "북가좌동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11410118",
+          "EMD_NM": "홍은동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11410117", "EMD_NM": "연희동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11410116", "EMD_NM": "창천동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11410115", "EMD_NM": "봉원동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410114", "EMD_NM": "신촌동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410113", "EMD_NM": "대신동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410112", "EMD_NM": "대현동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410111", "EMD_NM": "홍제동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410110", "EMD_NM": "북아현동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11410109", "EMD_NM": "현저동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410108", "EMD_NM": "영천동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410107", "EMD_NM": "옥천동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410106", "EMD_NM": "천연동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410105", "EMD_NM": "냉천동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410104", "EMD_NM": "미근동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410103", "EMD_NM": "합동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11410102", "EMD_NM": "충정로3가", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11410101", "EMD_NM": "충정로2가", "schedule": [0, 2, 4] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "18:00~23:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.sdm.go.kr/dong/ch/useful/com/waste.do"
+    },
+    {
+      "SIG_CD": "11440",
+      "SIG_NM": "마포구",
+      "EMDs": [
+        {
+          "EMD_CD": "11440127",
+          "EMD_NM": "상암동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        { "EMD_CD": "11440126", "EMD_NM": "중동", "schedule": [0, 1, 2, 3, 4] },
+        {
+          "EMD_CD": "11440125",
+          "EMD_NM": "성산동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440124",
+          "EMD_NM": "연남동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440123",
+          "EMD_NM": "망원동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440122",
+          "EMD_NM": "합정동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440121",
+          "EMD_NM": "동교동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440120",
+          "EMD_NM": "서교동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440118",
+          "EMD_NM": "당인동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440117",
+          "EMD_NM": "신정동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440116",
+          "EMD_NM": "하중동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440115",
+          "EMD_NM": "상수동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440114",
+          "EMD_NM": "창전동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440113",
+          "EMD_NM": "구수동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440112",
+          "EMD_NM": "현석동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440111",
+          "EMD_NM": "신수동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440110",
+          "EMD_NM": "노고산동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440109",
+          "EMD_NM": "염리동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440108",
+          "EMD_NM": "대흥동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440107",
+          "EMD_NM": "마포동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440106",
+          "EMD_NM": "토정동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440105",
+          "EMD_NM": "용강동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440104",
+          "EMD_NM": "도화동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440103",
+          "EMD_NM": "신공덕동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440102",
+          "EMD_NM": "공덕동",
+          "schedule": [0, 1, 2, 3, 4]
+        },
+        {
+          "EMD_CD": "11440101",
+          "EMD_NM": "아현동",
+          "schedule": [0, 1, 2, 3, 4]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "00:00~07:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "00:00~07:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰 후~24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "08:00~17:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "08:00~17:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "08:00~17:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "08:00~17:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.mapo.go.kr/site/main/content/mapo05060501"
+    },
+    {
+      "SIG_CD": "11470",
+      "SIG_NM": "양천구",
+      "EMDs": [
+        {
+          "EMD_CD": "11470103",
+          "EMD_NM": "신월동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11470102",
+          "EMD_NM": "목동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11470101",
+          "EMD_NM": "신정동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~23:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "상시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "상시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "상시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "상시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~23:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~23:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~23:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~23:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          }
+        }
+      },
+      "details": "일반쓰레기: 토,공휴일 전일이외 매일, 재활용품: 지역별구분",
+      "link": "https://www.yangcheon.go.kr/site/yangcheon/ex/bbs/View.do?cbIdx=279&bcIdx=897"
+    },
+    {
+      "SIG_CD": "11500",
+      "SIG_NM": "강서구",
+      "EMDs": [
+        {
+          "EMD_CD": "11500102",
+          "EMD_NM": "등촌동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11500101", "EMD_NM": "염창동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11500113", "EMD_NM": "오쇠동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11500112", "EMD_NM": "오곡동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11500111", "EMD_NM": "과해동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11500110", "EMD_NM": "개화동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11500109",
+          "EMD_NM": "방화동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11500108", "EMD_NM": "공항동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11500107",
+          "EMD_NM": "외발산동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11500106",
+          "EMD_NM": "내발산동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11500105", "EMD_NM": "마곡동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11500104",
+          "EMD_NM": "가양동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11500103",
+          "EMD_NM": "화곡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후 24시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수거전일 일몰후~"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.gangseo.seoul.kr/env/env010101"
+    },
+    {
+      "SIG_CD": "11530",
+      "SIG_NM": "구로구",
+      "EMDs": [
+        {
+          "EMD_CD": "11530112",
+          "EMD_NM": "항동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530111",
+          "EMD_NM": "천왕동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530110",
+          "EMD_NM": "온수동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530109",
+          "EMD_NM": "궁동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530108",
+          "EMD_NM": "오류동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530107",
+          "EMD_NM": "개봉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530106",
+          "EMD_NM": "고척동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530103",
+          "EMD_NM": "가리봉동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530102",
+          "EMD_NM": "구로동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11530101",
+          "EMD_NM": "신도림동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00-24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00-01:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.guro.go.kr/www/contents.do?key=2693&"
+    },
+    {
+      "SIG_CD": "11545",
+      "SIG_NM": "금천구",
+      "EMDs": [
+        {
+          "EMD_CD": "11545103",
+          "EMD_NM": "시흥동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11545102",
+          "EMD_NM": "독산동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        },
+        {
+          "EMD_CD": "11545101",
+          "EMD_NM": "가산동",
+          "schedule": [1, 2, 3, 4, 5, 6]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.geumcheon.go.kr/portal/contents.do?key=812"
+    },
+    {
+      "SIG_CD": "11560",
+      "SIG_NM": "영등포구",
+      "EMDs": [
+        {
+          "EMD_CD": "11560134",
+          "EMD_NM": "양평동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560133",
+          "EMD_NM": "대림동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560132",
+          "EMD_NM": "신길동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560131",
+          "EMD_NM": "양화동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560130",
+          "EMD_NM": "양평동6가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560129",
+          "EMD_NM": "양평동5가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560128",
+          "EMD_NM": "양평동4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560127",
+          "EMD_NM": "양평동3가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560126",
+          "EMD_NM": "양평동2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560125",
+          "EMD_NM": "양평동1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560124",
+          "EMD_NM": "문래동6가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560123",
+          "EMD_NM": "문래동5가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560122",
+          "EMD_NM": "문래동4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560121",
+          "EMD_NM": "문래동3가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560120",
+          "EMD_NM": "문래동2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560119",
+          "EMD_NM": "문래동1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560118",
+          "EMD_NM": "도림동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560117",
+          "EMD_NM": "당산동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560116",
+          "EMD_NM": "당산동6가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560115",
+          "EMD_NM": "당산동5가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560114",
+          "EMD_NM": "당산동4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560108",
+          "EMD_NM": "영등포동7가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560107",
+          "EMD_NM": "영등포동6가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560106",
+          "EMD_NM": "영등포동5가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560105",
+          "EMD_NM": "영등포동4가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560104",
+          "EMD_NM": "영등포동3가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560103",
+          "EMD_NM": "영등포동2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560113",
+          "EMD_NM": "당산동3가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560112",
+          "EMD_NM": "당산동2가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560111",
+          "EMD_NM": "당산동1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560110",
+          "EMD_NM": "여의도동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560109",
+          "EMD_NM": "영등포동8가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560102",
+          "EMD_NM": "영등포동1가",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11560101",
+          "EMD_NM": "영등포동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "20:00~24:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "09:00~18:00"
+          }
+        }
+      },
+      "details": "일반쓰레기 가로변상가: 공휴일 전날 제외",
+      "link": "https://www.ydp.go.kr/www/contents.do?key=2733&"
+    },
+    {
+      "SIG_CD": "11590",
+      "SIG_NM": "동작구",
+      "EMDs": [
+        {
+          "EMD_CD": "11590109",
+          "EMD_NM": "신대방동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590108",
+          "EMD_NM": "대방동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590107",
+          "EMD_NM": "사당동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590106",
+          "EMD_NM": "동작동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590105",
+          "EMD_NM": "흑석동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590104",
+          "EMD_NM": "본동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590103",
+          "EMD_NM": "상도1동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590102",
+          "EMD_NM": "상도동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11590101",
+          "EMD_NM": "노량진동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "공동주택": { "schedule": [], "time": "" },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "해진후 ~ 21:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "09:00~18:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200589"
+    },
+    {
+      "SIG_CD": "11620",
+      "SIG_NM": "관악구",
+      "EMDs": [
+        {
+          "EMD_CD": "11620103",
+          "EMD_NM": "남현동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11620102",
+          "EMD_NM": "신림동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11620101",
+          "EMD_NM": "봉천동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00~익일01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후~24:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00~익일01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후~24:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.gwanak.go.kr/site/gwanak/07/10703010100002016051206.jsp"
+    },
+    {
+      "SIG_CD": "11650",
+      "SIG_NM": "서초구",
+      "EMDs": [
+        { "EMD_CD": "11650111", "EMD_NM": "신원동", "schedule": [] },
+        { "EMD_CD": "11650110", "EMD_NM": "염곡동", "schedule": [] },
+        { "EMD_CD": "11650109", "EMD_NM": "내곡동", "schedule": [] },
+        { "EMD_CD": "11650108", "EMD_NM": "서초동", "schedule": [] },
+        { "EMD_CD": "11650107", "EMD_NM": "반포동", "schedule": [] },
+        { "EMD_CD": "11650106", "EMD_NM": "잠원동", "schedule": [] },
+        { "EMD_CD": "11650104", "EMD_NM": "원지동", "schedule": [] },
+        { "EMD_CD": "11650103", "EMD_NM": "우면동", "schedule": [] },
+        { "EMD_CD": "11650102", "EMD_NM": "양재동", "schedule": [] },
+        { "EMD_CD": "11650101", "EMD_NM": "방배동", "schedule": [] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "20:00~익일05:00"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "22:00~익일01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "신고일"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "신고일"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "신고일"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "신고일"
+          }
+        }
+      },
+      "details": "일반쓰레기 & 재활용품: 격일, 대형폐기물: 신고접수시",
+      "link": "https://www.seocho.go.kr/site/seocho/04/10411010600002018030711.jsp"
+    },
+    {
+      "SIG_CD": "11680",
+      "SIG_NM": "강남구",
+      "EMDs": [
+        {
+          "EMD_CD": "11680104",
+          "EMD_NM": "청담동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680103",
+          "EMD_NM": "개포동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680101",
+          "EMD_NM": "역삼동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680118",
+          "EMD_NM": "도곡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680115",
+          "EMD_NM": "수서동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680114",
+          "EMD_NM": "일원동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680113",
+          "EMD_NM": "율현동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680112",
+          "EMD_NM": "자곡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680111",
+          "EMD_NM": "세곡동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680110",
+          "EMD_NM": "압구정동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680108",
+          "EMD_NM": "논현동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680107",
+          "EMD_NM": "신사동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680106",
+          "EMD_NM": "대치동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11680105",
+          "EMD_NM": "삼성동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "수시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "20:00~05:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시"
+          },
+          "가로변상가": {
+            "schedule": [false, false, false, false, false, false, false],
+            "time": "없음"
+          }
+        }
+      },
+      "details": "음식폐기물 사업장 & 가로변상가: 격일제",
+      "link": ""
+    },
+    {
+      "SIG_CD": "11710",
+      "SIG_NM": "송파구",
+      "EMDs": [
+        {
+          "EMD_CD": "11710114",
+          "EMD_NM": "마천동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11710113", "EMD_NM": "거여동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11710112", "EMD_NM": "오금동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11710111", "EMD_NM": "방이동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11710109",
+          "EMD_NM": "장지동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11710108", "EMD_NM": "문정동", "schedule": [0, 2, 4] },
+        {
+          "EMD_CD": "11710107",
+          "EMD_NM": "가락동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11710106", "EMD_NM": "삼전동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11710105", "EMD_NM": "석촌동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11710104", "EMD_NM": "송파동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11710103", "EMD_NM": "풍납동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11710102",
+          "EMD_NM": "신천동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11710101",
+          "EMD_NM": "잠실동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "공동주택": {
+            "schedule": [true, true, true, true, true, true, true],
+            "time": "일몰후"
+          },
+          "사업장생활": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "가로변상가": {
+            "schedule": [true, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "일몰후"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, false],
+            "time": "22:00~01:00"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.songpa.go.kr/www/contents.do?key=3153&"
+    },
+    {
+      "SIG_CD": "11740",
+      "SIG_NM": "강동구",
+      "EMDs": [
+        { "EMD_CD": "11740110", "EMD_NM": "강일동", "schedule": [1, 3, 5] },
+        {
+          "EMD_CD": "11740109",
+          "EMD_NM": "천호동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        {
+          "EMD_CD": "11740108",
+          "EMD_NM": "성내동",
+          "schedule": [0, 1, 2, 3, 4, 5]
+        },
+        { "EMD_CD": "11740107", "EMD_NM": "암사동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11740106", "EMD_NM": "둔촌동", "schedule": [1, 3, 5] },
+        { "EMD_CD": "11740105", "EMD_NM": "길동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11740103", "EMD_NM": "상일동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11740102", "EMD_NM": "고덕동", "schedule": [0, 2, 4] },
+        { "EMD_CD": "11740101", "EMD_NM": "명일동", "schedule": [0, 2, 4] }
+      ],
+      "TRASH_TYPE": {
+        "일반쓰레기": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22시~익일01시"
+          }
+        },
+        "음식폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22시~익일01시"
+          }
+        },
+        "재활용품": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "일몰후~익일03시"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "22시~익일01시"
+          }
+        },
+        "대형폐기물": {
+          "일반주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시배출"
+          },
+          "공동주택": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시배출"
+          },
+          "사업장생활": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시배출"
+          },
+          "가로변상가": {
+            "schedule": [false, true, true, true, true, true, true],
+            "time": "수시배출"
+          }
+        }
+      },
+      "details": "",
+      "link": "https://www.gangdong.go.kr/web/newportal/contents/gdp_005_004_010_001"
+    }
+  ]
+}
