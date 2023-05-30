@@ -44,10 +44,18 @@ var clickHandler = function (event) {
 
 kakao.maps.event.addListener(map, "click", clickHandler);
 
+let neighborhoodsData = null;
+
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/seoul_sig.geojson")
     .then((response) => response.json())
     .then((data) => {
+      fetch("/data/seoul_map.geojson")
+        .then((response) => response.json())
+        .then((data) => (neighborhoodsData = data.features))
+        .catch((e) => {
+          console.log(e);
+        });
       data.features.map((area) =>
         renderArea({
           coordinates: area.geometry.coordinates[0],
@@ -64,7 +72,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 var details_window_open = false;
-var polygons = {};
 
 const polygonColors = [
   "#FF6B6B",
@@ -142,8 +149,7 @@ function renderArea(area) {
     if (!details_window_open) {
       polygon.setOptions(mouseoverOption);
       activePolygon = { polygon, color: fillColor };
-      polygons[area.id] = polygon;
-
+      drawNeighborhoods(area.SIG_CD);
       // modal window
       /* $.ajax({
         url: "scripts/modal.handlebars",
@@ -164,6 +170,29 @@ function renderArea(area) {
       }); */
     }
   });
+}
+
+function drawNeighborhoods(areaID) {
+  console.log(neighborhoodsData);
+  neighborhoodsData
+    .filter((neighborhood) => neighborhood.properties.COL_ADM_SE === areaID)
+    .map((neighborhood) => {
+      console.log(neighborhood);
+      var polygonPath = [];
+      for (var coords of neighborhood.geometry.coordinates[0][0]) {
+        polygonPath.push(new kakao.maps.LatLng(coords[1], coords[0]));
+        var polygon = new kakao.maps.Polygon({
+          map: map, // main map object
+          path: polygonPath, // 그려질 다각형의 좌표 배열입니다
+          strokeWeight: 2, // 선의 두께입니다
+          strokeColor: "#444", // 선의 색깔입니다
+          strokeOpacity: 0.8, // 선의 불투명도 입니다 1에서 0 사이의 값이며 0에 가까울수록 투명합니다
+          strokeStyle: "longdash", // 선의 스타일입니다
+          fillColor: "#aaa", // 채우기 색깔입니다
+          fillOpacity: 0.5, // 채우기 불투명도 입니다
+        });
+      }
+    });
 }
 
 window.removeModal = function removeModal(event) {
