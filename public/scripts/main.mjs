@@ -30,7 +30,7 @@ var clickHandler = function (event) {
       if (status === kakao.maps.services.Status.OK) {
         Toast.fire({
           icon: "info",
-          title: result[0].region_2depth_name,
+          title: result[0].region_3depth_name,
         });
       } else {
         Toast.fire({
@@ -49,21 +49,21 @@ let neighborhoodsData = null;
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/seoul_sig.geojson")
     .then((response) => response.json())
-    .then((data) => {
+    .then((areaData) => {
       fetch("/data/seoul_map.geojson")
         .then((response) => response.json())
         .then((data) => {
           neighborhoodsData = data.features;
+          areaData.features.map((area) =>
+            renderArea({
+              coordinates: area.geometry.coordinates[0],
+              ...area.properties,
+            })
+          );
         })
         .catch((e) => {
           console.log(e);
         });
-      data.features.map((area) =>
-        renderArea({
-          coordinates: area.geometry.coordinates[0],
-          ...area.properties,
-        })
-      );
     })
     .catch((error) => {
       Toast.fire({
@@ -181,9 +181,14 @@ function drawNeighborhoods(areaID) {
     .map((neighborhood) => {
       console.log(neighborhood);
       var polygonPath = [];
-      for (var coords of neighborhood.geometry.coordinates[0][0]) {
-        polygonPath.push(new kakao.maps.LatLng(coords[1], coords[0]));
+      for (var polygon of neighborhood.geometry.coordinates[0]) {
+        var arr = new Array();
+        for (var coords of polygon) {
+          arr.push(new kakao.maps.LatLng(coords[1], coords[0]));
+        }
+        polygonPath.push(arr);
       }
+
       var polygon = new kakao.maps.Polygon({
         map: map, // main map object
         path: polygonPath, // 그려질 다각형의 좌표 배열입니다
