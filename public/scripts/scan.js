@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // the link to your model provided by Teachable Machine export panel
 const teachableMachineModelURL =
-  "https://teachablemachine.withgoogle.com/models/XZQGv8mFR/";
+  "https://teachablemachine.withgoogle.com/models/6dYb8rUgB/";
 
 let model, maxPredictions;
 
