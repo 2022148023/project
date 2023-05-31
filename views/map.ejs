@@ -2,15 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>WasteWise</title>
+    <title>쓰레기 공작소</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/map.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="icon" href="/images/leaf.png" type="image/png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
   <body>
+    <div class="header">
+      <div class="logo">
+        <img src="/images/leaf.png" alt="logo" />
+
+        <a href="/"> 쓰레기 공작소 </a>
+      </div>
+      <span id="toggle"> <i class="fa-solid fa-bars"></i></span>
+      <div class="navbar">
+        <a href="/"> 홈 </a>
+
+        <a href="/login"> 로그인 </a>
+      </div>
+    </div>
+    <div class="data-loading">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+      서버에서 데이터를 불러오는 중
+    </div>
     <div id="map"></div>
+    <div class="type-buttons">
+      <button class="type-button" data-type="일반주택">
+        <img src="/images/home.png" />
+        <span>일반주택</span>
+      </button>
+      <button class="type-button type-button-disabled" data-type="공동주택">
+        <img src="/images/apartments.png" />
+        <span>공동주택</span>
+      </button>
+      <button class="type-button type-button-disabled" data-type="사업장생활">
+        <img src="/images/shops.png" />
+        <span>사업장생활</span>
+      </button>
+      <button class="type-button type-button-disabled" data-type="가로변상가">
+        <img src="/images/shopping-mall.png" />
+        <span>가로변상가</span>
+      </button>
+    </div>
+    <div class="footer">&copy; 쓰레기 공작소 2023</div>
+    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.9/ejs.min.js"></script>
     <script
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=<%= KAKAO_MAP_JAVASCRIPT_KEY %>&libraries=services,clusterer,drawing"
@@ -30,11 +74,30 @@
       src="https://kit.fontawesome.com/dfb093cc90.js"
       crossorigin="anonymous"
       type="text/javascript"
+      async="true"
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"
       type="text/javascript"
     ></script>
-    <script type="module" src="scripts/main.mjs"></script>
+    <script type="text/javascript" src="scripts/map.js"></script>
+    <script>
+      let isOpened = false;
+      const navbar = document.querySelector("div.navbar");
+      document
+        .getElementById("toggle")
+        .addEventListener("click", function (event) {
+          if (isOpened) {
+            navbar.className = "navbar animate__animated animate__fadeOutUp";
+            setTimeout(() => {
+              navbar.style.display = "none";
+            }, 500);
+          } else {
+            navbar.style.display = "flex";
+            navbar.className = "navbar animate__animated animate__fadeInDown";
+          }
+          isOpened = !isOpened;
+        });
+    </script>
   </body>
 </html>

@@ -1,0 +1,193 @@
+<div class="modalWindow" id="<%= area.SIG_CD %>">
+  <span class="close_button" onclick="removeModal(event)"
+    ><i class="fa-solid fa-xmark"></i
+  ></span>
+  <header class="modalHeader">
+    <span><%= area.SIG_NM %></span>
+    <span><%=neighborhood.EMD_NM %></span>
+  </header>
+  <section class="schedule">
+    <div>
+      <span>일반쓰레기</span>
+      <div>
+        <ul>
+          <% if (neighborhood.schedule[0] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[0]) { %>
+          <li class="checked">일</li>
+          <% } else { %>
+          <li>일</li>
+          <% } %> <% if (neighborhood.schedule[1] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[1]) { %>
+          <li class="checked">월</li>
+          <% } else { %>
+          <li>월</li>
+          <% } %> <% if (neighborhood.schedule[2] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[2]) { %>
+          <li class="checked">화</li>
+          <% } else { %>
+          <li>화</li>
+          <% } %> <% if (neighborhood.schedule[3] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[3]) { %>
+          <li class="checked">수</li>
+          <% } else { %>
+          <li>수</li>
+          <% } %> <% if (neighborhood.schedule[4] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[4]) { %>
+          <li class="checked">목</li>
+          <% } else { %>
+          <li>목</li>
+          <% } %> <% if (neighborhood.schedule[5] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[5]) { %>
+          <li class="checked">금</li>
+          <% } else { %>
+          <li>금</li>
+          <% } %> <% if (neighborhood.schedule[6] &&
+          area.TRASH_TYPE.일반쓰레기[type].schedule[6]) { %>
+          <li class="checked">토</li>
+          <% } else { %>
+          <li>토</li>
+          <% } %>
+        </ul>
+        <p><%= area.TRASH_TYPE.일반쓰레기[type].time %></p>
+      </div>
+    </div>
+    <div>
+      <span>음식폐기물</span>
+      <div>
+        <ul>
+          <% if (neighborhood.schedule[0] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[0]) { %>
+          <li class="checked">일</li>
+          <% } else { %>
+          <li>일</li>
+          <% } %> <% if (neighborhood.schedule[1] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[1]) { %>
+          <li class="checked">월</li>
+          <% } else { %>
+          <li>월</li>
+          <% } %> <% if (neighborhood.schedule[2] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[2]) { %>
+          <li class="checked">화</li>
+          <% } else { %>
+          <li>화</li>
+          <% } %> <% if (neighborhood.schedule[3] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[3]) { %>
+          <li class="checked">수</li>
+          <% } else { %>
+          <li>수</li>
+          <% } %> <% if (neighborhood.schedule[4] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[4]) { %>
+          <li class="checked">목</li>
+          <% } else { %>
+          <li>목</li>
+          <% } %> <% if (neighborhood.schedule[5] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[5]) { %>
+          <li class="checked">금</li>
+          <% } else { %>
+          <li>금</li>
+          <% } %> <% if (neighborhood.schedule[6] &&
+          area.TRASH_TYPE.음식폐기물[type].schedule[6]) { %>
+          <li class="checked">토</li>
+          <% } else { %>
+          <li>토</li>
+          <% } %>
+        </ul>
+        <p><%= area.TRASH_TYPE.음식폐기물[type].time %></p>
+      </div>
+    </div>
+    <div>
+      <span>재활용품</span>
+      <div>
+        <ul>
+          <% if (neighborhood.schedule[0] &&
+          area.TRASH_TYPE.재활용품[type].schedule[0]) { %>
+          <li class="checked">일</li>
+          <% } else { %>
+          <li>일</li>
+          <% } %> <% if (neighborhood.schedule[1] &&
+          area.TRASH_TYPE.재활용품[type].schedule[1]) { %>
+          <li class="checked">월</li>
+          <% } else { %>
+          <li>월</li>
+          <% } %> <% if (neighborhood.schedule[2] &&
+          area.TRASH_TYPE.재활용품[type].schedule[2]) { %>
+          <li class="checked">화</li>
+          <% } else { %>
+          <li>화</li>
+          <% } %> <% if (neighborhood.schedule[3] &&
+          area.TRASH_TYPE.재활용품[type].schedule[3]) { %>
+          <li class="checked">수</li>
+          <% } else { %>
+          <li>수</li>
+          <% } %> <% if (neighborhood.schedule[4] &&
+          area.TRASH_TYPE.재활용품[type].schedule[4]) { %>
+          <li class="checked">목</li>
+          <% } else { %>
+          <li>목</li>
+          <% } %> <% if (neighborhood.schedule[5] &&
+          area.TRASH_TYPE.재활용품[type].schedule[5]) { %>
+          <li class="checked">금</li>
+          <% } else { %>
+          <li>금</li>
+          <% } %> <% if (neighborhood.schedule[6] &&
+          area.TRASH_TYPE.재활용품[type].schedule[6]) { %>
+          <li class="checked">토</li>
+          <% } else { %>
+          <li>토</li>
+          <% } %>
+        </ul>
+        <p><%= area.TRASH_TYPE.재활용품[type].time %></p>
+      </div>
+    </div>
+    <div>
+      <span>대형폐기물</span>
+      <div>
+        <ul>
+          <% if (neighborhood.schedule[0] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[0]) { %>
+          <li class="checked">일</li>
+          <% } else { %>
+          <li>일</li>
+          <% } %> <% if (neighborhood.schedule[1] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[1]) { %>
+          <li class="checked">월</li>
+          <% } else { %>
+          <li>월</li>
+          <% } %> <% if (neighborhood.schedule[2] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[2]) { %>
+          <li class="checked">화</li>
+          <% } else { %>
+          <li>화</li>
+          <% } %> <% if (neighborhood.schedule[3] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[3]) { %>
+          <li class="checked">수</li>
+          <% } else { %>
+          <li>수</li>
+          <% } %> <% if (neighborhood.schedule[4] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[4]) { %>
+          <li class="checked">목</li>
+          <% } else { %>
+          <li>목</li>
+          <% } %> <% if (neighborhood.schedule[5] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[5]) { %>
+          <li class="checked">금</li>
+          <% } else { %>
+          <li>금</li>
+          <% } %> <% if (neighborhood.schedule[6] &&
+          area.TRASH_TYPE.대형폐기물[type].schedule[6]) { %>
+          <li class="checked">토</li>
+          <% } else { %>
+          <li>토</li>
+          <% } %>
+        </ul>
+        <p><%= area.TRASH_TYPE.대형폐기물[type].time %></p>
+      </div>
+    </div>
+  </section>
+  <div class="details">
+    <p><%= area.details %></p>
+  </div>
+  <a href="<%= area.link %>" target="_blank"
+    >상세보기 <i class="fa-solid fa-link"></i>
+  </a>
+</div>
