@@ -362,6 +362,7 @@ function drawNeighborhoods(area) {
               content: ejs.render(modalTemplate, data),
               xAnchor: 0.5,
               yAnchor: 0.5,
+              zIndex: 500,
             });
             customOverlay.setMap(map);
             activeDetailsOverlay = {
