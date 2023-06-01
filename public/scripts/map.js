@@ -7,6 +7,8 @@ let type = "일반주택";
 
 typeButtons.forEach((typeButton) =>
   typeButton.addEventListener("click", (event) => {
+    removeDetailsModal();
+    removeNeighborhoodName();
     type = event.currentTarget.dataset.type;
     event.currentTarget.classList.remove("type-button-disabled");
     typeButtons.forEach((typeButtonToBeDisabled) => {
@@ -41,28 +43,6 @@ var map = new kakao.maps.Map(mapContainer, options);
 // set bounds for zooming
 map.setMinLevel(4);
 map.setMaxLevel(8);
-
-var geocoder = new kakao.maps.services.Geocoder();
-
-/* kakao.maps.event.addListener(map, "click", function mapClickHandler(event) {
-  geocoder.coord2RegionCode(
-    event.latLng.getLng(),
-    event.latLng.getLat(),
-    (result, status) => {
-      if (status === kakao.maps.services.Status.OK) {
-        Toast.fire({
-          icon: "info",
-          title: result[0].region_3depth_name,
-        });
-      } else {
-        Toast.fire({
-          icon: "error",
-          title: "Network Error",
-        });
-      }
-    }
-  );
-}); */
 
 let neighborhoodsData = null;
 let recyclingData = null;
@@ -184,19 +164,8 @@ const guCenter = {
 
 let activeArea = {};
 let activeNeighborhoods = [];
-let activeDetailOverlay = null;
+let activeDetailsOverlay = {};
 let activeNeighborhoodNameOverlay = {};
-
-function getRandomAndRemove(array) {
-  // Generate a random index
-  const randomIndex = Math.floor(Math.random() * array.length);
-  // Retrieve the random element
-  const randomElement = array[randomIndex];
-  // Remove the element from the array
-  array.splice(randomIndex, 1);
-  // Return the random element
-  return randomElement;
-}
 
 function renderArea(area) {
   var polygonPath = [];
@@ -207,6 +176,7 @@ function renderArea(area) {
 
   const fillColor = getRandomAndRemove(polygonColors);
 
+  // area polygon
   var polygon = new kakao.maps.Polygon({
     map: map, // main map object
     path: polygonPath, // 그려질 다각형의 좌표 배열입니다
@@ -218,7 +188,7 @@ function renderArea(area) {
     fillOpacity: 0.5, // 채우기 불투명도 입니다
   });
 
-  // 커스텀 오버레이를 생성합니다
+  // Gu name badge
   var customOverlay = new kakao.maps.CustomOverlay({
     position: new kakao.maps.LatLng(
       guCenter[area.SIG_KOR_NM][1],
@@ -230,43 +200,12 @@ function renderArea(area) {
   customOverlay.setMap(map);
 
   kakao.maps.event.addListener(polygon, "click", function (event) {
-    console.log(`clicked ${area.SIG_KOR_NM}`);
     if (polygon != activeArea.polygon && activeArea.polygon) {
       removeAllNeighborhoods();
     }
     activeArea = { polygon, color: fillColor };
     drawNeighborhoods(area);
   });
-}
-
-function getNewCoordinates(latitude, longitude, distance) {
-  const earthRadius = 6371; // Radius of the Earth in kilometers
-  const latitudeRad = latitude * (Math.PI / 180); // Convert latitude to radians
-  const longitudeRad = longitude * (Math.PI / 180); // Convert longitude to radians
-
-  // Convert distance from meters to kilometers
-  const distanceKm = distance / 1000;
-
-  // Calculate the change in latitude using the Haversine formula
-  const newLatitudeRad = Math.asin(
-    Math.sin(latitudeRad) * Math.cos(distanceKm / earthRadius) +
-      Math.cos(latitudeRad) * Math.sin(distanceKm / earthRadius) * Math.cos(0)
-  );
-
-  // Calculate the change in longitude
-  const deltaLongitudeRad = Math.atan2(
-    Math.sin(0) * Math.sin(distanceKm / earthRadius) * Math.cos(latitudeRad),
-    Math.cos(distanceKm / earthRadius) -
-      Math.sin(latitudeRad) * Math.sin(newLatitudeRad)
-  );
-
-  // Calculate the new longitude
-  const newLongitudeRad = longitudeRad + deltaLongitudeRad;
-
-  const newLatitude = (newLatitudeRad * 180) / Math.PI; // Convert back to degrees
-  const newLongitude = (newLongitudeRad * 180) / Math.PI; // Convert back to degrees
-
-  return { latitude: newLatitude, longitude: newLongitude };
 }
 
 function drawNeighborhoods(area) {
@@ -280,6 +219,7 @@ function drawNeighborhoods(area) {
         for (var coord of coords[0]) {
           polygonPath.push(new kakao.maps.LatLng(coord[1], coord[0]));
         }
+        // neighborhood polygon
         var polygon = new kakao.maps.Polygon({
           map: map, // main map object
           path: polygonPath, // 그려질 다각형의 좌표 배열입니다
@@ -308,15 +248,13 @@ function drawNeighborhoods(area) {
         kakao.maps.event.addListener(polygon, "mousemove", function (event) {
           // 다각형의 채우기 옵션을 변경합니다
           polygon.setOptions(mouseoverOption);
+
           if (
             !activeNeighborhoodNameOverlay.neighborhoodNameOverlay ||
             activeNeighborhoodNameOverlay.name != neighborhood.properties.EMD_NM
           ) {
             if (activeNeighborhoodNameOverlay.neighborhoodNameOverlay) {
-              activeNeighborhoodNameOverlay.neighborhoodNameOverlay.setMap(
-                null
-              );
-              activeNeighborhoodNameOverlay.name = null;
+              removeNeighborhoodName();
             }
             const newPosition = new kakao.maps.LatLng(
               event.latLng.getLat() - 0.002,
@@ -326,17 +264,14 @@ function drawNeighborhoods(area) {
             var neighborhoodNameOverlay = new kakao.maps.CustomOverlay({
               position: newPosition,
               content: `<span class="neighborhoodNameOverlay">${neighborhood.properties.EMD_NM}</span>`,
-
-              zIndex: 0,
             });
             activeNeighborhoodNameOverlay = {
               neighborhoodNameOverlay,
               name: neighborhood.properties.EMD_NM,
             };
-
-            // 커스텀 오버레이를 지도에 표시합니다
             neighborhoodNameOverlay.setMap(map);
           } else {
+            // update position
             const newPosition = new kakao.maps.LatLng(
               event.latLng.getLat() - 0.002,
               event.latLng.getLng() - 0.002
@@ -348,14 +283,21 @@ function drawNeighborhoods(area) {
         });
 
         kakao.maps.event.addListener(polygon, "mouseout", function () {
-          // 다각형의 채우기 옵션을 변경합니다
           polygon.setOptions(mouseoutOption);
         });
 
         kakao.maps.event.addListener(polygon, "click", function (event) {
-          if (!activeDetailOverlay) {
-            polygon.setOptions(mouseoverOption);
+          polygon.setOptions(mouseoutOption);
 
+          if (
+            !activeDetailsOverlay.customOverlay ||
+            activeDetailsOverlay.name !== neighborhood.properties.EMD_NM
+          ) {
+            removeNeighborhoodName();
+            if (activeDetailsOverlay.customOverlay) {
+              removeDetailsModal();
+            }
+            polygon.setOptions(mouseoverOption);
             const areaRecyclingData = recyclingData.filter(
               (areaName) => areaName.SIG_NM === area.SIG_KOR_NM
             )[0];
@@ -372,7 +314,6 @@ function drawNeighborhoods(area) {
               neighborhood: { ...neighborhoodRecylcingData, schedule },
               type,
             };
-            console.log(data);
             var customOverlay = new kakao.maps.CustomOverlay({
               position: event.latLng,
               clickable: true,
@@ -381,7 +322,10 @@ function drawNeighborhoods(area) {
               yAnchor: 0.5,
             });
             customOverlay.setMap(map);
-            activeDetailOverlay = customOverlay;
+            activeDetailsOverlay = {
+              customOverlay,
+              name: neighborhood.properties.EMD_NM,
+            };
           }
         });
       });
@@ -389,14 +333,35 @@ function drawNeighborhoods(area) {
 }
 
 function removeAllNeighborhoods() {
-  console.log("removing old hoods");
   activeNeighborhoods.map((polygon) => {
     polygon.setMap(null);
     polygon = null;
   });
 }
 
-function removeModal() {
-  activeDetailOverlay.setMap(null);
-  activeDetailOverlay = null;
+function removeDetailsModal() {
+  if (activeDetailsOverlay.customOverlay) {
+    activeDetailsOverlay.customOverlay.setMap(null);
+  }
+  activeDetailsOverlay.customOverlay = null;
+  activeDetailsOverlay.name = null;
+}
+
+function removeNeighborhoodName() {
+  if (activeNeighborhoodNameOverlay.neighborhoodNameOverlay) {
+    activeNeighborhoodNameOverlay.neighborhoodNameOverlay.setMap(null);
+  }
+  activeNeighborhoodNameOverlay.name = null;
+}
+
+// helper functions
+function getRandomAndRemove(array) {
+  // Generate a random index
+  const randomIndex = Math.floor(Math.random() * array.length);
+  // Retrieve the random element
+  const randomElement = array[randomIndex];
+  // Remove the element from the array
+  array.splice(randomIndex, 1);
+  // Return the random element
+  return randomElement;
 }

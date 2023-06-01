@@ -162,12 +162,12 @@ button.type-button-disabled img {
 .modalWindow .modalHeader span {
   display: inline-block;
   padding: 0.25em 0.4em;
-  font-size: 75%;
+  font-size: 16px;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 20px;
   color: white;
 }
 .modalWindow .modalHeader span:last-child {
@@ -187,7 +187,7 @@ button.type-button-disabled img {
 .modalWindow .schedule span {
   display: inline-block;
   font-weight: bold;
-  font-size: 75%;
+  font-size: 16px;
   padding: 0.25em 0.4em;
   margin: 4px 0;
 }
@@ -202,12 +202,13 @@ button.type-button-disabled img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-right: 4px;
-  font-size: 14px;
+  margin-right: 8px;
   background-color: none;
-  border: 1px solid #444;
+  border: 1px solid #999;
   width: 25px;
+  font-size: 14px;
   height: 25px;
+  color: #999;
   border-radius: 50%;
 }
 
@@ -238,28 +239,34 @@ button.type-button-disabled img {
 }
 
 .modalWindow .schedule p {
-  font-size: 60%;
+  font-size: 14px;
   font-style: italic;
 }
 
 .modalWindow .details p {
-  font-size: 60%;
-  color: darkcyan;
+  font-size: 14px;
+  color: #e0a800;
   white-space: break-spaces;
 }
 
 .modalWindow a {
   text-decoration: none;
-  background-color: #007bff;
-  color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background-color: transparent;
   text-align: center;
   border-radius: 20px;
-  font-size: 75%;
-  padding: 3px 6px;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+
+.modalWindow a:hover {
+  color: white;
+  background-color: #007bff;
 }
 
 .modalWindow a i {
-  font-size: 75%;
+  font-size: 100%;
 }
 
 @media (max-width: 700px) {
@@ -274,7 +281,7 @@ button.type-button-disabled img {
   }
 
   .type-button span {
-    font-size: 16px;
+    font-size: 100%;
   }
 
   .type-button {
