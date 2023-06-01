@@ -381,7 +381,7 @@ button.type-button-disabled img {
     flex-direction: column;
     align-items: flex-start;
     width: auto;
-    left: 22%;
+    left: 20%;
   }
   .type-button {
     width: 125px;

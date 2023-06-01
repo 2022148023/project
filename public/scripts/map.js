@@ -287,10 +287,17 @@ function drawNeighborhoods(area) {
           fillOpacity: 0.5, // 채우기 불투명도 입니다
         };
 
-        kakao.maps.event.addListener(polygon, "mousemove", function (event) {
-          // 다각형의 채우기 옵션을 변경합니다
+        kakao.maps.event.addListener(polygon, "mouseover", function (event) {
           polygon.setOptions(mouseoverOption);
+        });
 
+        kakao.maps.event.addListener(polygon, "mouseout", function () {
+          if (!activeDetailsOverlay.customOverlay) {
+            polygon.setOptions(mouseoutOption);
+          }
+        });
+
+        kakao.maps.event.addListener(polygon, "mousemove", function (event) {
           if (
             !activeNeighborhoodNameOverlay.neighborhoodNameOverlay ||
             activeNeighborhoodNameOverlay.name != neighborhood.properties.EMD_NM
@@ -324,13 +331,7 @@ function drawNeighborhoods(area) {
           }
         });
 
-        kakao.maps.event.addListener(polygon, "mouseout", function () {
-          polygon.setOptions(mouseoutOption);
-        });
-
         kakao.maps.event.addListener(polygon, "click", function (event) {
-          polygon.setOptions(mouseoverOption);
-
           if (
             !activeDetailsOverlay.customOverlay ||
             activeDetailsOverlay.name !== neighborhood.properties.EMD_NM
@@ -339,7 +340,6 @@ function drawNeighborhoods(area) {
             if (activeDetailsOverlay.customOverlay) {
               removeDetailsModal();
             }
-            polygon.setOptions(mouseoverOption);
             const areaRecyclingData = recyclingData.filter(
               (areaName) => areaName.SIG_NM === area.SIG_KOR_NM
             )[0];
