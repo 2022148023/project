@@ -384,11 +384,15 @@ button.type-button-disabled img {
     left: 22%;
   }
   .type-button {
-    width: 150px;
+    width: 125px;
+  }
+
+  .type-button img {
+    width: 15px;
   }
 
   .type-button span {
-    font-size: 100%;
+    font-size: 14px;
   }
 
   .type-button {

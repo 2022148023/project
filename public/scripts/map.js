@@ -329,7 +329,7 @@ function drawNeighborhoods(area) {
         });
 
         kakao.maps.event.addListener(polygon, "click", function (event) {
-          polygon.setOptions(mouseoutOption);
+          polygon.setOptions(mouseoverOption);
 
           if (
             !activeDetailsOverlay.customOverlay ||
@@ -367,6 +367,7 @@ function drawNeighborhoods(area) {
             activeDetailsOverlay = {
               customOverlay,
               name: neighborhood.properties.EMD_NM,
+              polygon: polygon,
             };
           }
         });
@@ -384,9 +385,14 @@ function removeAllNeighborhoods() {
 function removeDetailsModal() {
   if (activeDetailsOverlay.customOverlay) {
     activeDetailsOverlay.customOverlay.setMap(null);
+    activeDetailsOverlay.polygon.setOptions({
+      fillColor: "#aaa", // 채우기 색깔입니다
+      fillOpacity: 0.5, // 채우기 불투명도 입니다
+    });
   }
   activeDetailsOverlay.customOverlay = null;
   activeDetailsOverlay.name = null;
+  activeDetailsOverlay.polygon = null;
 }
 
 function removeNeighborhoodName() {
