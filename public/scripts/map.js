@@ -48,6 +48,47 @@ let neighborhoodsData = null;
 let recyclingData = null;
 let modalTemplate = null;
 
+function getUserLocation() {
+  // Check if the browser supports the Geolocation API
+  if (navigator.geolocation) {
+    // Get the current position
+    navigator.geolocation.getCurrentPosition(showPosition, showError, {
+      enableHighAccuracy: true,
+    });
+  } else {
+  }
+
+  // Callback function to handle the position
+  function showPosition(position) {
+    // Retrieve latitude and longitude from the position object
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+
+    var customOverlay = new kakao.maps.CustomOverlay({
+      position: new kakao.maps.LatLng(latitude, longitude),
+      content: `<div class="box">
+                  <div class="circle">
+                  <div class="inner"></div>
+                   <div class="highlight"></div>
+                  </div>
+                  <div class="square"></div>
+                  </div>
+                  <div class="shadow">
+                </div>`,
+    });
+
+    customOverlay.setMap(map);
+  }
+
+  function showError(error) {
+    console.log(error);
+    Toast.fire({
+      icon: "error",
+      title: "현재 위치를 찾을 수 없습니다.",
+    });
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/seoul_sig.geojson")
     .then((response) => response.json())
@@ -70,6 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
                       ...area.properties,
                     })
                   );
+                  getUserLocation();
                   mapLoading.style.display = "none";
                   typeButtonsContainer.style.display = "flex";
                 })
