@@ -75,6 +75,9 @@ div.header .logo img {
 div.navbar {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 div.navbar a {
@@ -83,6 +86,23 @@ div.navbar a {
   color: white;
   font-size: 1rem;
   padding: 8px 1rem;
+}
+
+div.navbar a.profile {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #7c7c7c;
+  padding: 8px 16px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+div.navbar a.profile img {
+  width: 50px;
+  margin-left: 8px;
 }
 
 div.navbar a:hover {
@@ -114,7 +134,7 @@ div.navbar a:hover {
 .main-content h1 {
   text-align: center;
   font-family: "Nanum Brush Script", cursive;
-  font-size: 68px;
+  font-size: 52px;
   margin: 0;
 }
 
@@ -125,6 +145,7 @@ div.navbar a:hover {
   line-height: 3rem;
   padding: 2rem;
   margin: 0;
+  text-align: center;
 }
 
 .main-content .buttons a {
@@ -212,6 +233,35 @@ div.navbar a:hover {
     justify-content: center;
     align-items: center;
     padding: 0;
+  }
+
+  .main-content h1 {
+    font-size: 36px;
+  }
+
+  .main-content p {
+    font-size: 22px;
+    padding: 1rem;
+  }
+
+  div.navbar {
+    z-index: 2;
+  }
+
+  div.navbar a.profile {
+    border-radius: 0;
+    margin: 0;
+  }
+  div #toggle {
+    position: relative;
+  }
+  div #toggle .fa-star-of-life {
+    color: gold;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -30%);
   }
 
   div.navbar a {

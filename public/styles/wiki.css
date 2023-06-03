@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css");
+
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  padding: 1rem;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title img {
+  width: 40px;
+  height: 40px;
+  margin: 0 1rem;
+}
+
+.title h2 {
+  font-family: "Galmuri14";
+  color: #25a34b;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.items span.id,
+.items span.name {
+  display: block;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.items .item {
+  color: #555;
+  border: 1px solid #bbb;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: 0.5rem;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.item img {
+  width: 280px;
+}
+
+.item .id {
+  color: #777;
+  font-size: 14px;
+  margin: 0.5rem 0;
+}
+
+.item .name {
+  margin: 0.5rem 0;
+  font-size: 28px;
+  font-family: "Galmuri14";
+}
+
+.item .types {
+  margin-top: 0.1rem;
+}
+
+.item .types span {
+  color: white;
+  border-radius: 16px;
+  font-size: 16px;
+  padding: 4px 8px;
+  font-family: "Galmuri14";
+}
+
+.item .types .type-1 {
+  background-color: #fd7d24;
+}
+
+.item .types .type-2 {
+  background-color: #4592c4;
+}
+
+.item.hidden img {
+  object-fit: cover;
+  filter: blur(10px);
+}
+
+@media (max-width: 800px) {
+  .title h2 {
+    font-size: 32px;
+  }
+
+  .title img {
+    width: 30px;
+    height: 30px;
+  }
+}

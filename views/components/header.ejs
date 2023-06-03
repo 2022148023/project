@@ -1,0 +1,26 @@
+<div class="header">
+  <div class="logo">
+    <img src="/images/leaf.png" alt="logo" />
+    <a href="/"> 쓰레기 공작소 </a>
+  </div>
+  <span id="toggle">
+    <i class="fa-solid fa-bars"></i>
+    <% if (typeof user !== 'undefined') { %>
+    <i class="fa-solid fa-star-of-life"></i>
+    <% } %>
+  </span>
+  <div class="navbar">
+    <% if (typeof user !== 'undefined') { %>
+    <a href="/profile/<%= user._id%>" class="profile">
+      안녕, <%= user.username %>
+      <img src="/images/profiles/<%= user.profile%>.png" />
+    </a>
+    <a href="/"> 홈 </a>
+    <a href="/logout"> 로그아웃 </a>
+
+    <% } else { %>
+    <a href="/"> 홈 </a>
+    <a href="/login"> 로그인 </a>
+    <% } %>
+  </div>
+</div>

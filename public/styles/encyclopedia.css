@@ -1,0 +1,114 @@
+* {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.item {
+    background: none;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px 15px 20px;
+    height: 100%;
+    position: relative;
+
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.item > img {
+    width: 300px;
+    height: 300px;
+}
+
+.item-detail > .item-id {
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+    color: gray;
+    font-size: 15px;
+}
+
+.item-detail > .item-name {
+    margin-bottom: 20px;
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.item-detail > nav {
+    margin-bottom: 25px;
+}
+
+.item-detail > nav > div {
+    margin: 3px 5px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+
+    text-shadow: 0px 1px 3px gray;
+}
+
+.regular-waste {
+    background-color: red;
+}
+.paper-waste {
+    background-color: orange;
+}
+.plastic-waste {
+    background-color: yellow;
+}
+.glass-waste {
+    background-color: green;
+}
+.can-waste {
+    background-color: skyblue;
+}
+.scrap-waste {
+    background-color: blue;
+}
+.cloth-waste {
+    background-color: navy;
+}
+.electronic-waste {
+    background-color: purple;
+}
+.styrofoam-waste {
+    background-color: darkgoldenrod;
+}
+.vinyl-waste {
+    background-color: silver;
+}
+.fluorescent-waste {
+    background-color: greenyellow;
+}
+.food-waste {
+    background-color: brown;
+}
+.household-waste {
+    background-color: gold;
+}
