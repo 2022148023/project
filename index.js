@@ -60,11 +60,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   session({
-    cookie: { maxAge: 86400000 },
+    cookie: { maxAge: 86400000, secure: true },
     store: new MemoryStore({
       checkPeriod: 86400000, // prune expired entries every 24h
     }),
-    resave: false,
+    resave: true,
     secret: "keyboard cat",
     saveUninitialized: true,
   })
