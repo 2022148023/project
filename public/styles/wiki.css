@@ -59,10 +59,19 @@
   margin: 0.5rem;
   border-radius: 8px;
   background-color: white;
+  text-decoration: none;
 }
 
 .item img {
   width: 280px;
+}
+
+.item.hidden img {
+  filter: blur(12px);
+}
+
+.item.hidden .types {
+  filter: grayscale(100%);
 }
 
 .item .id {
@@ -95,11 +104,6 @@
 
 .item .types .type-2 {
   background-color: #4592c4;
-}
-
-.item.hidden img {
-  object-fit: cover;
-  filter: blur(10px);
 }
 
 @media (max-width: 800px) {

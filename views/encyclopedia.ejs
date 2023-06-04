@@ -14,51 +14,37 @@
     />
   </head>
   <body>
-    <div class="header">
-      <div class="logo">
-        <img src="/images/leaf.png" alt="logo" />
-
-        <a href="/"> 쓰레기 공작소 </a>
-      </div>
-      <span id="toggle"> <i class="fa-solid fa-bars"></i></span>
-      <div class="navbar">
-        <a href="/"> 홈 </a>
-
-        <a href="/login"> 로그인 </a>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="/wiki/1.jpg" alt="도감 아이템 사진" />
-      <div class="item-detail">
-        <p class="item-id">No. 001</p>
-        <p class="item-name">갑티슈</p>
+    <%- include('components/header.ejs') %>
+    <div class="container">
+      <a class="prev-page" href="/wiki"> &lt; 도감 목록으로 이동 </a>
+      <div class="item">
+        <p class="item-name"><%= wiki.name %></p>
+        <p class="item-id">#<%= wiki.id %></p>
+        <img src="/images/wiki/<%= wiki.image%>" alt="도감 아이템 사진" />
         <nav class="trash-type">
-          <div class="regular-waste">일반쓰레기</div>
-          <div class="paper-waste">종이류</div>
-          <div class="plastic-waste">플라스틱류</div>
-          <div class="glass-waste">유리병류</div>
-          <div class="can-waste">캔류</div>
-          <div class="scrap-waste">고철류</div>
-          <div class="cloth-waste">의류</div>
-          <div class="electronic-waste">전자제품 및 전지류</div>
-          <div class="styrofoam-waste">스티로폼류</div>
-          <div class="vinyl-waste">비닐류</div>
-          <div class="fluorescent-waste">형광등</div>
-          <div class="food-waste">음식물쓰레기</div>
-          <div class="household-waste">대형가정폐기물</div>
+          <% for (let i = 0; i < wiki.trash_type.length; i++) { %>
+          <div class="type-<%= i + 1 %>"><%= wiki.trash_type[i]%></div>
+          <% } %>
         </nav>
-
+        <p class="item-description"><%= wiki.details %></p>
         <hr />
+        <p class="description">해당 쓰레기를 도감에 등록한 유저:</p>
 
-        <p class="item-description">
-          티슈는 두루마리 휴지와 달리 물에 녹지 않기 때문에 화장실 변기에 버리지
-          말고 일반쓰레기로 분리배출해야 합니다. 티슈 갑은 겉에 있는 스티커나
-          비닐을 모두 제거해 종이류로 분리배출해야 합니다.
-        </p>
+        <div class="users">
+          <% for (let i = 0; i < wiki.users.length; i++) { %>
+          <div class="user">
+            <img
+              src="/images/profiles/<%=wiki.users[i].profile%>.png"
+              alt="유저 프로필"
+            />
+            <span class="user-name"><%= wiki.users[i].username%></span>
+          </div>
+          <% } %>
+        </div>
       </div>
     </div>
 
+    <div class="footer-area"></div>
     <div class="footer">&copy; 쓰레기 공작소 2023</div>
   </body>
 </html>

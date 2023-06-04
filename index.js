@@ -5,6 +5,7 @@ const session = require("express-session");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
+const fs = require("fs");
 const MemoryStore = require("memorystore")(session);
 
 require("dotenv").config();
@@ -12,6 +13,36 @@ require("dotenv").config();
 // DB models
 const User = require("./models/User");
 const Wiki = require("./models/Wiki");
+
+async function addWikisToDB() {
+  fs.readFile("./wikis.json", "utf8", (err, data) => {
+    if (err) {
+      console.error("Error reading file:", err);
+      return;
+    }
+    try {
+      // Parse the JSON data
+      const jsonData = JSON.parse(data);
+      jsonData.items.forEach(async (wiki) => {
+        const new_wiki = new Wiki({
+          id: wiki.id,
+          name: wiki.name,
+          details: wiki.details,
+          trash_type: wiki.trash_type,
+          details: wiki.details,
+          image: wiki.image,
+        });
+        try {
+          await new_wiki.save();
+        } catch (e) {
+          console.log(e);
+        }
+      });
+    } catch (err) {
+      console.error("Error parsing JSON data:", err);
+    }
+  });
+}
 
 // initialize new express app
 const app = express();
@@ -40,11 +71,6 @@ app.use(
 );
 
 app.set("views", path.join(__dirname, "views"));
-
-app.use((req, res, next) => {
-  res.set("Cache-Control", "no-store");
-  next();
-});
 
 // main page
 app.get("/map", function (req, res) {
@@ -81,7 +107,7 @@ app.post("/login", async function (req, res) {
     const user = await User.findOne({ username });
     bcrypt.compare(password, user.password, (err, valid) => {
       if (valid) {
-        req.session.user = user;
+        req.session.user = user._doc;
         req.session.expires = Date.now() + 60 * 60 * 1000;
         res.redirect("/");
       } else {
@@ -137,12 +163,42 @@ app.post("/signup", async function (req, res) {
   }
 });
 
-app.get("/wiki", function (req, res) {
-  res.render("wiki");
+app.get("/wiki", async function (req, res) {
+  try {
+    let wikis = await Wiki.find({});
+    const user = req.session.user || null;
+
+    wikis = wikis
+      .sort((wiki1, wiki2) => wiki1._doc.id - wiki2._doc.id)
+      .map((wiki) => ({
+        ...wiki._doc,
+        id: wiki._doc.id.toString().padStart(4, "0"),
+        hidden: user ? (wiki.users.includes(user._id) ? false : true) : true,
+      }));
+    res.render("wikis", { wikis, user: req.session.user });
+  } catch (e) {
+    res.status(500).send(e);
+  }
 });
 
-app.get("/wiki/a", function (req, res) {
-  res.render("encyclopedia");
+app.get("/wiki/:id", async function (req, res) {
+  try {
+    const user = req.session.user || null;
+    let wiki = await Wiki.findById(req.params.id);
+    if (user) {
+      if (!wiki.users.includes(user._id)) {
+        wiki.users = [...wiki._doc.users, user._id];
+        await wiki.save();
+      }
+    }
+    wiki = await wiki.populate({ path: "users" });
+    res.render("encyclopedia", {
+      wiki: { ...wiki._doc, id: wiki._doc.id.toString().padStart(4, "0") },
+      user: req.session.user,
+    });
+  } catch (e) {
+    res.status(500).send(e);
+  }
 });
 
 app.get("/scan", (req, res) => {
@@ -158,7 +214,8 @@ const MONGODB_URI =
 
 mongoose
   .connect(MONGODB_URI)
-  .then(() => {
+  .then(async () => {
+    // await addWikisToDB();
     app.listen(port, () => {
       console.log(`Server started at http://localhost:${port}`);
     });

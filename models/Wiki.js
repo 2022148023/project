@@ -4,9 +4,23 @@ const Schema = mongoose.Schema;
 
 const WikiScheme = new Schema({
   id: {
-    type: String,
+    type: Number,
     required: true,
     unique: true,
+  },
+  name: {
+    type: String,
+  },
+  trash_type: [
+    {
+      type: String,
+    },
+  ],
+  details: {
+    type: String,
+  },
+  image: {
+    type: String,
   },
   users: [
     {
