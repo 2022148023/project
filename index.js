@@ -6,8 +6,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const fs = require("fs");
-const MemoryStore = require("memorystore")(session);
-
+const MongoStore = require("connect-mongo");
 require("dotenv").config();
 
 // DB models
@@ -60,15 +59,22 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   session({
-    cookie: { maxAge: 86400000, secure: true },
-    store: new MemoryStore({
-      checkPeriod: 86400000, // prune expired entries every 24h
+    cookie: { maxAge: 86400000 },
+    store: new MongoStore({
+      mongoUrl:
+        "mongodb+srv://ipproject:ipproject@project.bwchbws.mongodb.net/sessionstore",
+      ttl: 86400,
     }),
-    resave: true,
     secret: "keyboard cat",
+    resave: false,
     saveUninitialized: true,
   })
 );
+
+app.use((req, res, next) => {
+  console.log(req.session);
+  next();
+});
 
 app.set("views", path.join(__dirname, "views"));
 
@@ -108,7 +114,6 @@ app.post("/login", async function (req, res) {
     bcrypt.compare(password, user.password, (err, valid) => {
       if (valid) {
         req.session.user = user._doc;
-        req.session.expires = Date.now() + 60 * 60 * 1000;
         res.redirect("/");
       } else {
         res.render("login", {
