@@ -117,12 +117,12 @@ app.post("/login", async function (req, res) {
         res.redirect("/");
       } else {
         res.render("login", {
-          error: "Username or password is incorrect",
+          error: "아이디나 비밀번호가 일치하지 않습니다.",
         });
       }
     });
   } catch (e) {
-    res.render("login", { error: "Username or password is incorrect" });
+    res.render("login", { error: "아이디나 비밀번호가 일치하지 않습니다." });
   }
 });
 

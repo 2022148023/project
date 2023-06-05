@@ -84,9 +84,21 @@ const doScreenshot = async () => {
         prediction2.probability - prediction1.probability
     );
     console.log(prediction);
-    Toast.fire({
-      icon: "info",
-      title: `Our AI model thinks that this is ${prediction[0].className}`,
+
+    var context = "";
+    for (var body of descriptionData[prediction[0].className]) {
+      context += "<h1>" + body.tag + "</h1>";
+      for (var line of body.description) context += "<p>" + line + "</br>";
+      context += "</p>";
+    }
+
+    Swal.fire({
+      html: context,
+      imageUrl: "https://unsplash.it/400/200",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "Custom image",
+      confirmButtonText: "확인",
     });
     screenshotContainer.style.display = "none";
   }, 2000);
@@ -94,9 +106,22 @@ const doScreenshot = async () => {
 
 screenshotButton.onclick = doScreenshot;
 
+let descriptionData = null;
+
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     await getCameraSelection();
+    fetch("/data/description.json")
+      .then((response) => response.json())
+      .then((data) => {
+        descriptionData = data.trash_type;
+      })
+      .catch((e) => {
+        Toast.fire({
+          icon: "error",
+          title: "카메라 실행중 문제가 발생하였습니다.",
+        });
+      });
   } catch (e) {
     Toast.fire({
       icon: "error",

@@ -318,19 +318,19 @@
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "동주민센터 접수한 날짜"
+            "time": "동 주민센터별로 접수한 시간대 자기집,점포앞"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "동주민센터 접수한 날짜"
+            "time": "동 주민센터별로 접수한 시간대 자기집,점포앞"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "동주민센터 접수한 날짜"
+            "time": "동 주민센터별로 접수한 시간대 자기집,점포앞"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "동주민센터 접수한 날짜"
+            "time": "동 주민센터별로 접수한 시간대 자기집,점포앞"
           }
         }
       },
@@ -716,73 +716,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         }
       },
@@ -978,73 +978,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "동장이 지정한 일시"
+            "time": "동장이 지정한 일시 및 장소에 배출"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "동장이 지정한 일시"
+            "time": "동장이 지정한 일시 및 장소에 배출"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "동장이 지정한 일시"
+            "time": "동장이 지정한 일시 및 장소에 배출"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, false, false],
-            "time": "동장이 지정한 일시"
+            "time": "동장이 지정한 일시 및 장소에 배출"
           }
         }
       },
@@ -1077,73 +1077,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "지정된 장소 또는 용기 19:00~24:00"
           }
         }
       },
@@ -1178,73 +1178,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내점포앞 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~01:00"
+            "time": "내점포앞 20:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내점포앞 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~01:00"
+            "time": "내점포앞 20:00~01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내집앞 19:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "19:00~24:00"
+            "time": "내점포앞 19:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~01:00"
+            "time": "내점포앞 20:00~01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           }
         }
       },
@@ -1278,73 +1278,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내집앞 18:00~21:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~21:00"
+            "time": "내점포앞 18:00~21:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내점포앞 수시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내점포앞 수시"
           }
         }
       },
@@ -1378,73 +1378,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내점포앞 18:00~20:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내점포앞 18:00~20:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내점포앞 18:00~20:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내집앞 18:00~20:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내점포앞 18:00~20:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~20:00"
+            "time": "내점포앞 18:00~20:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           }
         }
       },
@@ -1535,73 +1535,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [false, true, false, true, false, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "배출장소 신고 후 신고필증 부착 09:00~18:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "배출장소 신고 후 신고필증 부착 09:00~18:00"
           }
         }
       },
@@ -1637,43 +1637,43 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내집앞 일몰후~12:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내집앞 일몰후~12:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내집앞 일몰후~12:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내집앞 일몰후~12:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내집앞 일몰후~12:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
@@ -1681,29 +1681,29 @@
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~12:00"
+            "time": "내점포앞 일몰후~12:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~15:00"
+            "time": "내집앞 09:00~15:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~15:00"
+            "time": "내집앞 09:00~15:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~15:00"
+            "time": "내점포앞 09:00~15:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "09:00~15:00"
+            "time": "내점포앞 09:00~15:00"
           }
         }
       },
@@ -1739,73 +1739,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, false, true, false, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, false, true, false, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, false, true, false, true, true, true],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, false, true, false, true, true, true],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내집앞 18:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~24:00"
+            "time": "내점포앞 18:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "06:00~24:00"
+            "time": "내집앞 06:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "06:00~24:00"
+            "time": "내집앞 06:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "06:00~24:00"
+            "time": "내점포앞 06:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "06:00~24:00"
+            "time": "내점포앞 06:00~24:00"
           }
         }
       },
@@ -1842,73 +1842,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내집앞 22:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내집앞 22:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내점포앞 22:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내점포앞 22:00-24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내집앞 22:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내집앞 22:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내점포앞 22:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00-24:00"
+            "time": "내점포앞 22:00-24:00"
           }
         }
       },
@@ -1943,47 +1943,47 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18시 ~ 24시, 19시 ~ 24시"
+            "time": "내집앞 18시 ~ 24시, 19시 ~ 24시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18시 ~ 24시, 19시 ~ 24시"
+            "time": "내집앞 18시 ~ 24시, 19시 ~ 24시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "18시 ~ 24시, 19시 ~ 24시"
+            "time": "내점포앞 18시 ~ 24시, 19시 ~ 24시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22시 ~ 01시"
+            "time": "내점포앞 22시 ~ 01시"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18시 ~ 24시, 19시 ~ 24시"
+            "time": "내집앞 18시 ~ 24시, 19시 ~ 24시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18시 ~ 24시, 19시 ~ 24시"
+            "time": "내집앞 18시 ~ 24시, 19시 ~ 24시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "계약에 따라 다름"
+            "time": "계약에 따라 상이"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22시 ~ 01시"
+            "time": "내점포앞 22시 ~ 01시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "18시 ~ 22시"
+            "time": "내집앞 18시 ~ 22시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "18시 ~ 22시"
+            "time": "내집앞 18시 ~ 22시"
           },
           "사업장생활": {
             "schedule": [false, false, false, false, false, false, false],
@@ -1997,11 +1997,11 @@
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "18시 ~ 22시"
+            "time": "내집앞 18시 ~ 22시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "18시 ~ 22시"
+            "time": "내집앞 18시 ~ 22시"
           },
           "사업장생활": {
             "schedule": [false, false, false, false, false, false, false],
@@ -2049,73 +2049,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내집앞 18:00~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "18:00~23:00"
+            "time": "내점포앞 18:00~23:00"
           }
         }
       },
@@ -2257,73 +2257,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "00:00~07:00"
+            "time": "내집앞 00:00~07:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "00:00~07:00"
+            "time": "내집앞 00:00~07:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내집앞 일몰 후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내집앞 일몰 후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내집앞 일몰 후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내집앞 일몰 후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰 후~24:00"
+            "time": "내점포앞 일몰 후~24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "08:00~17:00"
+            "time": "내집앞 08:00~17:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "08:00~17:00"
+            "time": "내집앞 08:00~17:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "08:00~17:00"
+            "time": "내점포앞 08:00~17:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "08:00~17:00"
+            "time": "내점포앞 08:00~17:00"
           }
         }
       },
@@ -2354,73 +2354,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~23:00"
+            "time": "내집앞 일몰후~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~23:00"
+            "time": "내집앞 일몰후~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~23:00"
+            "time": "내점포앞 일몰후~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~23:00"
+            "time": "내점포앞 일몰후~23:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "상시"
+            "time": "내집앞 상시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "상시"
+            "time": "내집앞 상시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "상시"
+            "time": "내점포앞 상시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "상시"
+            "time": "내점포앞 상시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~23:00"
+            "time": "내집앞 일몰후~23:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~23:00"
+            "time": "내집앞 일몰후~23:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~23:00"
+            "time": "내점포앞 일몰후~23:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~23:00"
+            "time": "내점포앞 일몰후~23:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "(신고이후) 수시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "(신고이후) 수시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "(신고이후) 수시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "(신고이후) 수시"
           }
         }
       },
@@ -2473,73 +2473,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "내집앞 일몰후 24시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "내집앞 일몰후 24시"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "내점포앞 일몰후 24시"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "내점포앞 일몰후 24시"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "수거통 일몰후 24시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "수거통 일몰후 24시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "수거통 일몰후 24시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후 24시"
+            "time": "수거통 일몰후 24시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내집앞 수거전일 일몰후~"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내집앞 수거전일 일몰후~"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내점포앞 수거전일 일몰후~"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내점포앞 수거전일 일몰후~"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내집앞 수거전일 일몰후~"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내집앞 수거전일 일몰후~"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내점포앞 수거전일 일몰후~"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수거전일 일몰후~"
+            "time": "내점포앞 수거전일 일몰후~"
           }
         }
       },
@@ -2605,73 +2605,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내집앞 20:00-24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00-24:00"
+            "time": "내점포앞 20:00-24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00-01:00"
+            "time": "내점포앞 22:00-01:00"
           }
         }
       },
@@ -2702,73 +2702,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내점포앞 수시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내점포앞 수시"
           }
         }
       },
@@ -2954,73 +2954,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내집앞 20:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "지정된 장소 20:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내점포앞 20:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내점포앞 20:00~24:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정장소(거점지역) 수시"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정장소(거점지역) 수시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정장소(거점지역) 수시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정장소(거점지역) 수시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내집앞 20:00~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "지정된 장소 20:00~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내점포앞 20:00~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "20:00~24:00"
+            "time": "내점포앞 20:00~24:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "지정된 장소 09:00~18:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           }
         }
       },
@@ -3081,70 +3081,70 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내집앞 해진후 ~ 21:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내집앞 해진후 ~ 21:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내집앞 해진후 ~ 21:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내집앞 해진후 ~ 21:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내집앞 해진후 ~ 21:00"
           },
           "공동주택": { "schedule": [], "time": "" },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "해진후 ~ 21:00"
+            "time": "내점포앞 해진후 ~ 21:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내집앞 09:00~18:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "09:00~18:00"
+            "time": "내점포앞 09:00~18:00"
           }
         }
       },
@@ -3175,73 +3175,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00~익일01:00"
+            "time": "내점포앞 22:00~익일01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00~익일01:00"
+            "time": "내점포앞 22:00~익일01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내집앞 일몰후~24:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후~24:00"
+            "time": "내점포앞 일몰후~24:00"
           }
         }
       },
@@ -3267,73 +3267,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내점포앞 20:00~익일05:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내점포앞 20:00~익일05:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내점포앞 20:00~익일05:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내점포앞 20:00~익일05:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내집앞 20:00~익일05:00"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "20:00~익일05:00"
+            "time": "내점포앞 20:00~익일05:00"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "22:00~익일01:00"
+            "time": "내점포앞 22:00~익일01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "신고일"
+            "time": "내집앞 신고일"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "신고일"
+            "time": "내집앞 신고일"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "신고일"
+            "time": "내점포앞 신고일"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "신고일"
+            "time": "내점포앞 신고일"
           }
         }
       },
@@ -3419,69 +3419,69 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내집앞 20:00~05:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내집앞 20:00~05:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내점포앞 20:00~05:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내점포앞 20:00~05:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정음식물 전용용기 수시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정음식물 전용용기 수시"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정음식물 전용용기 수시"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "지정음식물 전용용기 수시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내집앞 20:00~05:00"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내집앞 20:00~05:00"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내점포앞 20:00~05:00"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "20:00~05:00"
+            "time": "내점포앞 20:00~05:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내집앞 수시"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시"
+            "time": "내점포앞 수시"
           },
           "가로변상가": {
             "schedule": [false, false, false, false, false, false, false],
@@ -3534,73 +3534,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내점포앞 일몰후"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내점포앞 일몰후"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "공동주택": {
             "schedule": [true, true, true, true, true, true, true],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "사업장생활": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내점포앞 일몰후"
           },
           "가로변상가": {
             "schedule": [true, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내집앞 일몰후"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "일몰후"
+            "time": "내점포앞 일몰후"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, false],
-            "time": "22:00~01:00"
+            "time": "내점포앞 22:00~01:00"
           }
         }
       },
@@ -3633,73 +3633,73 @@
         "일반쓰레기": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내점포앞 일몰후~익일03시"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22시~익일01시"
+            "time": "내점포앞 22시~익일01시"
           }
         },
         "음식폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내점포앞 일몰후~익일03시"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22시~익일01시"
+            "time": "내점포앞 22시~익일01시"
           }
         },
         "재활용품": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내집앞 일몰후~익일03시"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "일몰후~익일03시"
+            "time": "내점포앞 일몰후~익일03시"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "22시~익일01시"
+            "time": "내점포앞 22시~익일01시"
           }
         },
         "대형폐기물": {
           "일반주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시배출"
+            "time": "내집앞 수시배출"
           },
           "공동주택": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시배출"
+            "time": "내집앞 수시배출"
           },
           "사업장생활": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시배출"
+            "time": "내점포앞 수시배출"
           },
           "가로변상가": {
             "schedule": [false, true, true, true, true, true, true],
-            "time": "수시배출"
+            "time": "내점포앞 수시배출"
           }
         }
       },

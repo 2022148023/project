@@ -43,7 +43,7 @@ signup_form.addEventListener("submit", function (event) {
   if (!username) {
     Toast.fire({
       icon: "warning",
-      text: "Enter a valid username",
+      text: "유효한 아이디를 입력하세요.",
     });
     return;
   }
@@ -51,7 +51,7 @@ signup_form.addEventListener("submit", function (event) {
   if (!password || password !== password_confirmation) {
     Toast.fire({
       icon: "warning",
-      text: "Passwords are not matching",
+      text: "틀린 비밀번호입니다.",
     });
     return;
   }
@@ -59,7 +59,7 @@ signup_form.addEventListener("submit", function (event) {
   if (!email) {
     Toast.fire({
       icon: "warning",
-      text: "Enter a valid email",
+      text: "유효한 이메일 주소를 입력하세요.",
     });
     return;
   }
@@ -67,7 +67,7 @@ signup_form.addEventListener("submit", function (event) {
   if (!profile) {
     Toast.fire({
       icon: "warning",
-      text: "Choose a profile picture",
+      text: "프로필 사진을 선택하세요",
     });
     return;
   }
@@ -84,7 +84,7 @@ signup_form.addEventListener("submit", function (event) {
       if (data === "OK") {
         Toast.fire({
           icon: "success",
-          text: "Successfully signed up, you can login now",
+          text: "성공적으로 회원가입이 되었습니다.",
         });
         $("form").animate({ height: "toggle", opacity: "toggle" }, "slow");
       } else {
