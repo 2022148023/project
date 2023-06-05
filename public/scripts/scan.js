@@ -73,7 +73,7 @@ const doScreenshot = async () => {
   canvas.getContext("2d").drawImage(video, 0, 0);
   screenshotImage.src = canvas.toDataURL("image/webp");
   screenshotContainer.style.display = "block";
-  screenshotImage.classList.remove("d-none");
+  screenshotImage.style.display = "block";
   if (!model) {
     await initializeTeachableMachineModel();
   }
