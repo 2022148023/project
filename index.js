@@ -200,6 +200,7 @@ app.get("/wiki/:id", async function (req, res) {
     res.render("encyclopedia", {
       wiki: { ...wiki._doc, id: wiki._doc.id.toString().padStart(4, "0") },
       user: req.session.user,
+      KAKAO_JAVASCRIPT_KEY: "1adc9b894b7296ff72529231b45c38cf",
     });
   } catch (e) {
     res.status(500).send(e);

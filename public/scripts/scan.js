@@ -86,17 +86,19 @@ const doScreenshot = async () => {
     console.log(prediction);
 
     var context = "";
-    for (var body of descriptionData[prediction[0].className]) {
+    for (var body of descriptionData[prediction[0].className].context) {
       context += "<h1>" + body.tag + "</h1>";
       for (var line of body.description) context += "<p>" + line + "</br>";
       context += "</p>";
     }
+    var imageURL =
+      "/images/trash_type/" + descriptionData[prediction[0].className].image;
 
     Swal.fire({
       html: context,
-      imageUrl: "https://unsplash.it/400/200",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageUrl: imageURL,
+      imageWidth: "75%",
+      imageHeight: "80%",
       imageAlt: "Custom image",
       confirmButtonText: "확인",
     });
