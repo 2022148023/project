@@ -71,11 +71,6 @@ app.use(
   })
 );
 
-app.use((req, res, next) => {
-  console.log(req.session);
-  next();
-});
-
 app.set("views", path.join(__dirname, "views"));
 
 // main page
@@ -195,6 +190,11 @@ app.get("/wiki/:id", async function (req, res) {
         wiki.users = [...wiki._doc.users, user._id];
         await wiki.save();
       }
+      let userQuery = await User.findById(user._id);
+      if (!userQuery.wikis.includes(wiki._id)) {
+        userQuery.wikis = [wiki._id, ...userQuery.wikis];
+      }
+      await userQuery.save();
     }
     wiki = await wiki.populate({ path: "users" });
     res.render("encyclopedia", {
@@ -211,6 +211,69 @@ app.get("/scan", (req, res) => {
   res.render("scan", {
     user: req.session.user,
   });
+});
+
+app.get("/profile/:username", async (req, res) => {
+  try {
+    const userQuery = await User.findOne({
+      username: req.params.username,
+    }).populate({ path: "wikis" });
+    let isUser = false;
+    let rank = 1;
+    if (req.session.user && userQuery.equals(req.session.user._id)) {
+      isUser = true;
+    }
+    if (userQuery.wikis.length >= 30) {
+      rank = 3;
+    } else if (userQuery.wikis.length >= 15) {
+      rank = 2;
+    }
+    res.render("profile", {
+      user: req.session.user,
+      userData: {
+        ...userQuery._doc,
+        isUser,
+        rank,
+      },
+    });
+  } catch (e) {
+    return res.status(500).send(e);
+  }
+});
+
+app.get("/profile/:username/settings", (req, res) => {
+  if (req.session.user && req.params.username === req.session.user.username) {
+    res.render("profile-edit", {
+      user: req.session.user,
+    });
+  } else {
+    return res.redirect("/logout");
+  }
+});
+
+app.post("/profile/:username/settings", async (req, res) => {
+  if (req.session.user && req.params.username === req.session.user.username) {
+    const { bio, email, password, profile } = req.body;
+    bcrypt.hash(password || "1", 3, async (err, hash) => {
+      try {
+        const user = await User.findOneAndUpdate(
+          { username: req.session.user.username },
+          {
+            bio: bio || req.session.user.bio,
+            email: email || req.session.user.email,
+            password: password ? hash : req.session.user.password,
+            profile: profile || req.session.user.profile,
+          }
+        );
+        await user.save();
+        return res.redirect(`/profile/${req.session.user.username}`);
+      } catch (e) {
+        return res.status(500).send(e);
+      }
+    });
+  } else {
+    return res.redirect("/logout");
+  }
 });
 
 const port = process.env.PORT || 3000;

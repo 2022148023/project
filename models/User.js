@@ -24,6 +24,10 @@ const UserScheme = new Schema({
     type: Date,
     default: Date.now,
   },
+  bio: {
+    type: String,
+    default: "",
+  },
   wikis: [
     {
       type: Schema.Types.ObjectId,

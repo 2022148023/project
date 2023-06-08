@@ -35,7 +35,6 @@
           <% } %>
         </nav>
         <p class="item-description"><%= wiki.details %></p>
-        <hr />
         <!---->
         <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()">
           <img
@@ -43,19 +42,20 @@
             alt="카카오톡 공유 보내기 버튼"
           />
         </a>
+
         <hr />
         <!---->
         <p class="description">해당 쓰레기를 도감에 등록한 유저:</p>
 
         <div class="users">
           <% for (let i = 0; i < wiki.users.length; i++) { %>
-          <div class="user">
+          <a class="user" href="/profile/<%=wiki.users[i].username%>">
             <img
               src="/images/profiles/<%=wiki.users[i].profile%>.png"
               alt="유저 프로필"
             />
             <span class="user-name"><%= wiki.users[i].username%></span>
-          </div>
+          </a>
           <% } %>
         </div>
       </div>
@@ -90,5 +90,11 @@
         });
       }
     </script>
+    <script
+      src="https://kit.fontawesome.com/dfb093cc90.js"
+      crossorigin="anonymous"
+      type="text/javascript"
+      async
+    ></script>
   </body>
 </html>

@@ -26,6 +26,11 @@ hr {
   padding: 1rem;
   background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
 }
+#kakaotalk-sharing-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
 
 .prev-page {
   display: block;
@@ -137,8 +142,7 @@ p.item-description {
 }
 
 .item > .users > .user {
-  color: blue;
-
+  color: rgb(5, 98, 198);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +154,6 @@ p.item-description {
   margin-right: 6px;
 }
 span.user-name {
-  font-family: "Galmuri14";
   font-size: 16px;
 }
 

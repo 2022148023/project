@@ -10,11 +10,13 @@
     <% } %>
   </span>
   <div class="navbar">
-    <% if (typeof user !== 'undefined') { %>
-    <a href="/profile/<%= user._id%>" class="profile">
+    <% if (typeof user !== 'undefined') { %> <% if (typeof hideInfo ===
+    'undefined' || !hideInfo) { %>
+    <a href="/profile/<%= user.username %>" class="profile">
       안녕, <%= user.username %>
-      <img src="/images/profiles/<%= user.profile%>.png" />
+      <img src="/images/profiles/<%= user.profile %>.png" />
     </a>
+    <% } %>
     <a href="/"> 홈 </a>
     <a href="/logout"> 로그아웃 </a>
 

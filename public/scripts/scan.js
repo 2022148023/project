@@ -103,7 +103,7 @@ const doScreenshot = async () => {
       confirmButtonText: "확인",
     });
     screenshotContainer.style.display = "none";
-  }, 2000);
+  }, 1000);
 };
 
 screenshotButton.onclick = doScreenshot;
@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .then((response) => response.json())
       .then((data) => {
         descriptionData = data.trash_type;
+        screenshotButton.removeAttribute("disabled");
       })
       .catch((e) => {
         Toast.fire({

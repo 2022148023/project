@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.main {
+  background-size: auto;
+}
+.profile-page {
+  width: 100%;
+  margin: auto;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.form {
+  border-radius: 18px;
+
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 720px;
+  margin: auto;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4caf50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #43a047;
+}
+.form button.cancel {
+  background: rgb(255, 35, 35);
+}
+.form button.cancel:hover,
+.form button.cancel:active,
+.form button.cancel:focus {
+  background: rgb(230, 35, 35);
+}
+
+.form .message {
+  color: #b3b3b3;
+  font-size: 14px;
+
+  float: left;
+  padding-top: 1rem;
+}
+
+.form .username {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #434343;
+  font-size: 30px;
+}
+
+.form .user-profile {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.form .user-text {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #858585;
+  font-size: 17px;
+}
+
+.form .user-rank {
+  display: block;
+  margin: 0 auto;
+  margin: 1rem 0;
+  color: #858585;
+  font-size: 17px;
+}
+
+.form .user-rank span {
+  color: white;
+  border-radius: 26px;
+  padding: 8px 12px;
+}
+
+.form .user-rank span.rookie {
+  background-color: #ff6600; /* Orange */
+}
+
+.form .user-rank span.skilled {
+  background-color: #00cc00; /* Green */
+}
+
+.form .user-rank span.expert {
+  background-color: #6600cc; /* Purple */
+}
+
+.form .user-rank span.inactive {
+  background-color: #888 !important;
+}
+
+.form .items {
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.form .items p {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0;
+  color: #5c5c5c;
+  font-size: 20px;
+}
+
+.form .items .item {
+  float: left;
+  position: relative;
+  width: 25%;
+
+  aspect-ratio: 1/1;
+
+  text-decoration: none;
+  color: #555;
+
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.form .items .item div {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.form .items .item img {
+  width: 100%;
+  margin: 0 auto;
+
+  aspect-ratio: 1/1;
+
+  justify-content: center;
+}
+
+.form .items .item span {
+  width: 100%;
+  text-align: center;
+}
+
+.form h1 {
+  color: #555;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form .message a {
+  color: #4caf50;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #25a34b;
+}
+
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container .info span .fa {
+  color: #ef3b3a;
+}
+
+.profile-images {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+
+.profile-images .profile-image {
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+  background: -moz-linear-gradient(right, #76b852, #8dc26f);
+  background: -o-linear-gradient(right, #76b852, #8dc26f);
+  background: linear-gradient(to left, #76b852, #8dc26f);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 800px) {
+  .form img {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .form {
+    max-width: 90%;
+  }
+
+  .form .items .item {
+    width: 50%;
+  }
+}
