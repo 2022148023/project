@@ -7,11 +7,35 @@ const bodyParser = require("body-parser");
 const bcrypt = require("bcrypt");
 const fs = require("fs");
 const MongoStore = require("connect-mongo");
+const { v4 } = require("uuid");
+const util = require("util");
+const exec = util.promisify(require("child_process").exec);
+const https = require("https");
+
 require("dotenv").config();
+
+const options = {
+  key: fs.readFileSync("./config/cert.key"),
+  cert: fs.readFileSync("./config/cert.crt"),
+};
+
+let WIKI_REFERENCE = {};
 
 // DB models
 const User = require("./models/User");
 const Wiki = require("./models/Wiki");
+
+async function executeCommandAsync(command) {
+  try {
+    const { stdout, stderr } = await exec(command);
+    console.log("Command output:\n", stdout);
+    if (stderr) {
+      console.error("Command execution error:\n", stderr);
+    }
+  } catch (error) {
+    console.error("Error executing command:\n", error);
+  }
+}
 
 async function addWikisToDB() {
   fs.readFile("./wikis.json", "utf8", (err, data) => {
@@ -186,15 +210,6 @@ app.get("/wiki/:id", async function (req, res) {
     const user = req.session.user || null;
     let wiki = await Wiki.findById(req.params.id);
     if (user) {
-      if (!wiki.users.includes(user._id)) {
-        wiki.users = [...wiki._doc.users, user._id];
-        await wiki.save();
-      }
-      let userQuery = await User.findById(user._id);
-      if (!userQuery.wikis.includes(wiki._id)) {
-        userQuery.wikis = [wiki._id, ...userQuery.wikis];
-      }
-      await userQuery.save();
     }
     wiki = await wiki.populate({ path: "users" });
     res.render("encyclopedia", {
@@ -276,7 +291,124 @@ app.post("/profile/:username/settings", async (req, res) => {
   }
 });
 
-const port = process.env.PORT || 3000;
+const isLogged = (req, res, next) => {
+  if (req.session.user) {
+    next();
+  } else {
+    return res.status(403).send("You need to login first");
+  }
+};
+
+const TYPES = {
+  "toilet tissue": "두루마리 휴지",
+  "paper towel": "두루마리 휴지",
+  basketball: "농구공",
+  "soccer ball": "축구공",
+  baseball: "야구공",
+  television: "TV",
+  refrigerator: "냉장고",
+  "remote control": "리모컨",
+  mouse: "마우스",
+  banana: "바나나",
+  pineapple: "파인애플",
+  backpack: "백팩",
+
+  "digital watch": "손목 시계",
+  "bath towel": "수건",
+  "dial telephone": "아이폰",
+  "cellular telephone": "갤럭시 스마트폰",
+
+  "running shoe": "신발",
+  "folding chair": "의자",
+  "rocking chair": "의자",
+  "barber chair": "의자",
+  sweatshirt: "와이셔츠",
+  "milk can": "코카콜라 캔",
+
+  "rubber eraser": "지우개",
+  "comic book": "책",
+  notebook: "책",
+  laptop: "노트북",
+  "prairie chicken": "치킨",
+  "water bottle": "페트병",
+  "beer bottle": "소주병",
+
+  "car mirror": "거울",
+  "pop bottle": "페트병",
+  "soup bowl": "도자기 그릇",
+  spotlight: "전구",
+
+  cup: "종이컵",
+
+  paintbrush: "칫솔",
+
+  packet: "우유팩",
+};
+
+app.post("/checkWiki", isLogged, (req, res) => {
+  const { image } = req.body;
+  const buffer = Buffer.from(image, "base64");
+  const filename = `${v4()}.jpg`;
+  const filePath = `./ai/${filename}`;
+  fs.writeFile(filePath, buffer, (err) => {
+    if (err) {
+      return res.status(500).send("Error storing the image");
+    }
+    const command = `python ./ai/script.py ${filename} > ./ai/${
+      filename.split(".")[0] + ".txt"
+    }`;
+    console.log(command);
+    exec(command, (error, stdout, stderr) => {
+      fs.access(
+        `./ai/${filename.split(".")[0] + ".txt"}`,
+        fs.constants.F_OK,
+        (err) => {
+          if (err) {
+            return console.log(err);
+          }
+          // Read the file contents
+          fs.readFile(
+            `./ai/${filename.split(".")[0] + ".txt"}`,
+            "utf8",
+            async (err, data) => {
+              if (err) {
+                return console.log(err);
+              }
+              const types = data
+                .split("\n")
+                .filter((text) => text.length > 0)
+                .map((type) => type.split("\r")[0])
+                .map((type1) => TYPES[type1]);
+              let newWiki = null;
+              console.log(data);
+              console.log("types", types);
+              for (type of types) {
+                if (type !== "None" && WIKI_REFERENCE.hasOwnProperty(type)) {
+                  // add wiki to user
+                  let wiki = await Wiki.findOne({ id: WIKI_REFERENCE[type] });
+                  console.log(wiki);
+                  if (!wiki.users.includes(req.session.user._id)) {
+                    wiki.users = [...wiki._doc.users, req.session.user._id];
+                    newWiki = wiki._doc;
+                    await wiki.save();
+                  }
+                  let user = await User.findById(req.session.user._id);
+                  if (!user.wikis.includes(wiki._id)) {
+                    user.wikis = [wiki._id, ...user.wikis];
+                  }
+                  await user.save();
+                }
+              }
+              return res.status(200).send({ newWiki });
+            }
+          );
+        }
+      );
+    });
+  });
+});
+
+const port = process.env.PORT || 8000;
 
 const MONGODB_URI =
   "mongodb+srv://ipproject:ipproject@project.bwchbws.mongodb.net/ipproject?retryWrites=true&w=majority";
@@ -285,8 +417,17 @@ mongoose
   .connect(MONGODB_URI)
   .then(async () => {
     // await addWikisToDB();
-    app.listen(port, () => {
+    const wikis = await Wiki.find({});
+    for (wiki of wikis) {
+      WIKI_REFERENCE[wiki.name] = wiki.id;
+    }
+    console.log(WIKI_REFERENCE);
+    /*     app.listen(port, () => {
       console.log(`Server started at http://localhost:${port}`);
+    }); */
+
+    https.createServer(options, app).listen(8000, () => {
+      console.log(`Server started at https://localhost:8000`);
     });
   })
   .catch((e) => {

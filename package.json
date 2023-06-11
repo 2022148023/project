@@ -21,7 +21,8 @@
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "memorystore": "^1.6.7",
-    "mongoose": "^7.2.2"
+    "mongoose": "^7.2.2",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

@@ -4,6 +4,8 @@ const screenshotContainer = document.querySelector(".screenshot-container");
 const screenshotImage = document.querySelector("img.screenshot-image");
 const screenshotButton = document.querySelector("button.screenshot-button");
 
+const HOST = "https://192.168.0.2:8000";
+
 let streamStarted = false;
 
 const Toast = Swal.mixin({
@@ -83,7 +85,7 @@ const doScreenshot = async () => {
       (prediction1, prediction2) =>
         prediction2.probability - prediction1.probability
     );
-    console.log(prediction);
+    console.log(prediction[0].className);
 
     var context = "";
     for (var body of descriptionData[prediction[0].className].context) {
@@ -93,6 +95,8 @@ const doScreenshot = async () => {
     }
     var imageURL =
       "/images/trash_type/" + descriptionData[prediction[0].className].image;
+    console.log(prediction);
+    console.log(descriptionData);
 
     Swal.fire({
       html: context,
@@ -102,9 +106,38 @@ const doScreenshot = async () => {
       imageAlt: "Custom image",
       confirmButtonText: "확인",
     });
+
+    await checkWikiMacth(screenshotImage.src);
     screenshotContainer.style.display = "none";
   }, 1000);
 };
+
+function checkWikiMacth(image) {
+  fetch(`${HOST}/checkWiki`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ image: image.split(",")[1] }), // Include the base64 data in the request body
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const { newWiki } = data;
+      if (newWiki) {
+        Swal.fire({
+          title: "축하합니다!🎉",
+          text: `새로운 도감(${newWiki.name})을 찾았습니다.`,
+          imageUrl: "/images/wiki/" + newWiki.image,
+          imageWidth: "350px",
+          imageHeight: "350px",
+          confirmButtonText: "확인",
+        });
+      }
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+}
 
 screenshotButton.onclick = doScreenshot;
 
@@ -113,7 +146,7 @@ let descriptionData = null;
 document.addEventListener("DOMContentLoaded", async () => {
   try {
     await getCameraSelection();
-    fetch("/data/description.json")
+    fetch(`${HOST}/data/description.json`)
       .then((response) => response.json())
       .then((data) => {
         descriptionData = data.trash_type;
